@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/teensy.kicad_sym")(options "")(descr ""))
   (lib (name "SN74HCS08")(type "KiCad")(uri "${KIPRJMOD}/SN74HCS08.kicad_sym")(options "")(descr ""))
+  (lib (name "Cetus_RJ45_MagJack")(type "KiCad")(uri "${KIPRJMOD}/Cetus_RJ45_MagJack.kicad_sym")(options "")(descr ""))
 )

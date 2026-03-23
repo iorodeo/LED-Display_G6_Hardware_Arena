@@ -19941,6 +19941,24 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 27.94 58.42 180)
+				(length 5.08)
+				(name "VUSB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 27.94 54.61 180)
 				(length 5.08)

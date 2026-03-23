@@ -1464,6 +1464,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -1711,7 +1836,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-10V"
+		(symbol "power:-12V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1732,7 +1857,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-10V"
+			(property "Value" "-12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1758,7 +1883,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-10V\""
+			(property "Description" "Power symbol creates a global label with name \"-12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1776,7 +1901,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "-10V_0_0"
+			(symbol "-12V_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1796,7 +1921,7 @@
 					)
 				)
 			)
-			(symbol "-10V_0_1"
+			(symbol "-12V_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -3326,7 +3451,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f0c0a6e-4d0f-44ad-8e02-35e3afdeacd3")
 		(property "Reference" "U?"
 			(at 81.28 163.8299 0)
@@ -3699,71 +3823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 171.45 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b2cc59f-b88b-40bc-8f92-60545c1b4a8b")
-		(property "Reference" "#PWR0378"
-			(at 171.45 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 171.45 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d8d4634-cc73-409d-9d8f-2ad6b04c7deb")
-		)
-		(instances
-			(project "arena_10_of_10_v1r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "#PWR0378")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 105.41 74.93 0)
 		(unit 1)
@@ -3824,6 +3883,71 @@
 			(project "arena_10_of_10_v1r1"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
 					(reference "#PWR0373")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 80.01 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d3a25d7-65a3-4c51-a7ab-a7a3bf476d71")
+		(property "Reference" "#PWR0383"
+			(at 80.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 80.01 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 80.01 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8856baec-6f9b-4ef5-835c-c43e9143f31f")
+		)
+		(instances
+			(project "arena_10_of_10_v1r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
+					(reference "#PWR0383")
 					(unit 1)
 				)
 			)
@@ -4093,46 +4217,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "d9769aa9-f5f8-40c0-b77e-2d7120cc8e5f")
+			(uuid "d9769aa9-f5f8-40c0-b77e-2d7120cc8e60")
 		)
 		(pin "12"
-			(uuid "2ee48c9f-9093-41ff-b4b8-9af1cfa422ae")
+			(uuid "2ee48c9f-9093-41ff-b4b8-9af1cfa422af")
 		)
 		(pin "14"
-			(uuid "be6b7a5d-b143-4c5a-8c9c-750b95f0dcac")
+			(uuid "be6b7a5d-b143-4c5a-8c9c-750b95f0dcad")
 		)
 		(pin "4"
-			(uuid "00c25f06-96f7-4b0e-b6d7-2ccefb6a3b39")
+			(uuid "00c25f06-96f7-4b0e-b6d7-2ccefb6a3b3a")
 		)
 		(pin "2"
-			(uuid "b05d8c30-4788-421f-bb64-8a0d6b85348a")
+			(uuid "b05d8c30-4788-421f-bb64-8a0d6b85348b")
 		)
 		(pin "8"
-			(uuid "6cfc6d95-7731-4bf7-8e35-a4b6da4f87c0")
+			(uuid "6cfc6d95-7731-4bf7-8e35-a4b6da4f87c1")
 		)
 		(pin "13"
-			(uuid "abfbb82b-3f73-4cc9-b1e2-f1afefd6047e")
+			(uuid "abfbb82b-3f73-4cc9-b1e2-f1afefd6047f")
 		)
 		(pin "3"
-			(uuid "21a816b0-8582-40d3-b0c6-71d1181d993c")
+			(uuid "21a816b0-8582-40d3-b0c6-71d1181d993d")
 		)
 		(pin "11"
-			(uuid "a65653d1-83c4-41f6-9ced-89108f575efa")
+			(uuid "a65653d1-83c4-41f6-9ced-89108f575efb")
 		)
 		(pin "6"
-			(uuid "9021ac2b-7248-44c6-ae93-72216adea869")
+			(uuid "9021ac2b-7248-44c6-ae93-72216adea86a")
 		)
 		(pin "7"
-			(uuid "f225e2ea-d9bd-4d00-8a15-8c33ab1a56d3")
+			(uuid "f225e2ea-d9bd-4d00-8a15-8c33ab1a56d4")
 		)
 		(pin "10"
-			(uuid "a986aee8-6790-472a-9a47-e5df6777c995")
+			(uuid "a986aee8-6790-472a-9a47-e5df6777c996")
 		)
 		(pin "5"
-			(uuid "49158a50-b5b3-41c7-9657-5b6e26471992")
+			(uuid "49158a50-b5b3-41c7-9657-5b6e26471993")
 		)
 		(pin "1"
-			(uuid "04d0d04b-a200-41ee-8ee7-e3a0d7384a8a")
+			(uuid "04d0d04b-a200-41ee-8ee7-e3a0d7384a8b")
 		)
 		(instances
 			(project ""
@@ -4619,6 +4743,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 80.01 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "806e19e6-dab3-4f52-a1a0-b0ebf0d846c3")
+		(property "Reference" "#PWR0371"
+			(at 80.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 80.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aec3eef-185c-49a7-9f9c-1dfd262fdbc0")
+		)
+		(instances
+			(project ""
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
+					(reference "#PWR0371")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 171.45 119.38 0)
 		(unit 1)
@@ -4758,72 +4947,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+10V")
-		(at 203.2 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84f3c7e7-851d-4cc4-9c23-e132666e77be")
-		(property "Reference" "#PWR0372"
-			(at 203.2 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+10V"
-			(at 203.2 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 203.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4ecb32c-0f7d-46ff-8898-27c4b9f78d2b")
-		)
-		(instances
-			(project "arena_10_of_10_v1r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "#PWR0372")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 105.41 116.84 0)
 		(unit 1)
@@ -4956,71 +5079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-10V")
-		(at 80.01 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ceae68e-9e53-4436-a983-a681bbaf945e")
-		(property "Reference" "#PWR0382"
-			(at 80.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-10V"
-			(at 80.01 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-10V\""
-			(at 80.01 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d600952-7010-402f-a342-71814072a651")
-		)
-		(instances
-			(project ""
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "#PWR0382")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 207.01 130.81 0)
 		(mirror y)
@@ -5140,46 +5198,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "d9769aa9-f5f8-40c0-b77e-2d7120cc8e5f")
+			(uuid "d9769aa9-f5f8-40c0-b77e-2d7120cc8e61")
 		)
 		(pin "12"
-			(uuid "2ee48c9f-9093-41ff-b4b8-9af1cfa422ae")
+			(uuid "2ee48c9f-9093-41ff-b4b8-9af1cfa422b0")
 		)
 		(pin "14"
-			(uuid "be6b7a5d-b143-4c5a-8c9c-750b95f0dcac")
+			(uuid "be6b7a5d-b143-4c5a-8c9c-750b95f0dcae")
 		)
 		(pin "4"
-			(uuid "00c25f06-96f7-4b0e-b6d7-2ccefb6a3b39")
+			(uuid "00c25f06-96f7-4b0e-b6d7-2ccefb6a3b3b")
 		)
 		(pin "2"
-			(uuid "b05d8c30-4788-421f-bb64-8a0d6b85348a")
+			(uuid "b05d8c30-4788-421f-bb64-8a0d6b85348c")
 		)
 		(pin "8"
-			(uuid "6cfc6d95-7731-4bf7-8e35-a4b6da4f87c0")
+			(uuid "6cfc6d95-7731-4bf7-8e35-a4b6da4f87c2")
 		)
 		(pin "13"
-			(uuid "abfbb82b-3f73-4cc9-b1e2-f1afefd6047e")
+			(uuid "abfbb82b-3f73-4cc9-b1e2-f1afefd60480")
 		)
 		(pin "3"
-			(uuid "21a816b0-8582-40d3-b0c6-71d1181d993c")
+			(uuid "21a816b0-8582-40d3-b0c6-71d1181d993e")
 		)
 		(pin "11"
-			(uuid "a65653d1-83c4-41f6-9ced-89108f575efa")
+			(uuid "a65653d1-83c4-41f6-9ced-89108f575efc")
 		)
 		(pin "6"
-			(uuid "9021ac2b-7248-44c6-ae93-72216adea869")
+			(uuid "9021ac2b-7248-44c6-ae93-72216adea86b")
 		)
 		(pin "7"
-			(uuid "f225e2ea-d9bd-4d00-8a15-8c33ab1a56d3")
+			(uuid "f225e2ea-d9bd-4d00-8a15-8c33ab1a56d5")
 		)
 		(pin "10"
-			(uuid "a986aee8-6790-472a-9a47-e5df6777c995")
+			(uuid "a986aee8-6790-472a-9a47-e5df6777c997")
 		)
 		(pin "5"
-			(uuid "49158a50-b5b3-41c7-9657-5b6e26471992")
+			(uuid "49158a50-b5b3-41c7-9657-5b6e26471994")
 		)
 		(pin "1"
-			(uuid "04d0d04b-a200-41ee-8ee7-e3a0d7384a8a")
+			(uuid "04d0d04b-a200-41ee-8ee7-e3a0d7384a8c")
 		)
 		(instances
 			(project ""
@@ -5399,6 +5457,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 203.2 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a133f9be-f651-4ea3-8217-07f7a193d974")
+		(property "Reference" "#PWR0372"
+			(at 203.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 203.2 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5e09614-509d-47ec-8dcc-024dc4416826")
+		)
+		(instances
+			(project "arena_10_of_10_v1r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
+					(reference "#PWR0372")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 182.88 0)
 		(mirror y)
@@ -5459,72 +5582,6 @@
 			(project "arena_10_of_10_v1r1"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
 					(reference "#PWR0387")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+10V")
-		(at 203.2 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b467c700-0168-403b-80dc-d10882ba55af")
-		(property "Reference" "#PWR0371"
-			(at 203.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+10V"
-			(at 203.2 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 203.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2711ef95-e21a-43a2-a27b-568829ce4129")
-		)
-		(instances
-			(project "arena_10_of_10_v1r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "#PWR0371")
 					(unit 1)
 				)
 			)
@@ -5655,46 +5712,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "d9769aa9-f5f8-40c0-b77e-2d7120cc8e5f")
+			(uuid "d9769aa9-f5f8-40c0-b77e-2d7120cc8e62")
 		)
 		(pin "12"
-			(uuid "2ee48c9f-9093-41ff-b4b8-9af1cfa422ae")
+			(uuid "2ee48c9f-9093-41ff-b4b8-9af1cfa422b1")
 		)
 		(pin "14"
-			(uuid "be6b7a5d-b143-4c5a-8c9c-750b95f0dcac")
+			(uuid "be6b7a5d-b143-4c5a-8c9c-750b95f0dcaf")
 		)
 		(pin "4"
-			(uuid "00c25f06-96f7-4b0e-b6d7-2ccefb6a3b39")
+			(uuid "00c25f06-96f7-4b0e-b6d7-2ccefb6a3b3c")
 		)
 		(pin "2"
-			(uuid "b05d8c30-4788-421f-bb64-8a0d6b85348a")
+			(uuid "b05d8c30-4788-421f-bb64-8a0d6b85348d")
 		)
 		(pin "8"
-			(uuid "6cfc6d95-7731-4bf7-8e35-a4b6da4f87c0")
+			(uuid "6cfc6d95-7731-4bf7-8e35-a4b6da4f87c3")
 		)
 		(pin "13"
-			(uuid "abfbb82b-3f73-4cc9-b1e2-f1afefd6047e")
+			(uuid "abfbb82b-3f73-4cc9-b1e2-f1afefd60481")
 		)
 		(pin "3"
-			(uuid "21a816b0-8582-40d3-b0c6-71d1181d993c")
+			(uuid "21a816b0-8582-40d3-b0c6-71d1181d993f")
 		)
 		(pin "11"
-			(uuid "a65653d1-83c4-41f6-9ced-89108f575efa")
+			(uuid "a65653d1-83c4-41f6-9ced-89108f575efd")
 		)
 		(pin "6"
-			(uuid "9021ac2b-7248-44c6-ae93-72216adea869")
+			(uuid "9021ac2b-7248-44c6-ae93-72216adea86c")
 		)
 		(pin "7"
-			(uuid "f225e2ea-d9bd-4d00-8a15-8c33ab1a56d3")
+			(uuid "f225e2ea-d9bd-4d00-8a15-8c33ab1a56d6")
 		)
 		(pin "10"
-			(uuid "a986aee8-6790-472a-9a47-e5df6777c995")
+			(uuid "a986aee8-6790-472a-9a47-e5df6777c998")
 		)
 		(pin "5"
-			(uuid "49158a50-b5b3-41c7-9657-5b6e26471992")
+			(uuid "49158a50-b5b3-41c7-9657-5b6e26471995")
 		)
 		(pin "1"
-			(uuid "04d0d04b-a200-41ee-8ee7-e3a0d7384a8a")
+			(uuid "04d0d04b-a200-41ee-8ee7-e3a0d7384a8d")
 		)
 		(instances
 			(project ""
@@ -5890,183 +5947,52 @@
 			)
 		)
 		(pin "9"
-			(uuid "d9769aa9-f5f8-40c0-b77e-2d7120cc8e5f")
+			(uuid "d9769aa9-f5f8-40c0-b77e-2d7120cc8e63")
 		)
 		(pin "12"
-			(uuid "2ee48c9f-9093-41ff-b4b8-9af1cfa422ae")
+			(uuid "2ee48c9f-9093-41ff-b4b8-9af1cfa422b2")
 		)
 		(pin "14"
-			(uuid "be6b7a5d-b143-4c5a-8c9c-750b95f0dcac")
+			(uuid "be6b7a5d-b143-4c5a-8c9c-750b95f0dcb0")
 		)
 		(pin "4"
-			(uuid "00c25f06-96f7-4b0e-b6d7-2ccefb6a3b39")
+			(uuid "00c25f06-96f7-4b0e-b6d7-2ccefb6a3b3d")
 		)
 		(pin "2"
-			(uuid "b05d8c30-4788-421f-bb64-8a0d6b85348a")
+			(uuid "b05d8c30-4788-421f-bb64-8a0d6b85348e")
 		)
 		(pin "8"
-			(uuid "6cfc6d95-7731-4bf7-8e35-a4b6da4f87c0")
+			(uuid "6cfc6d95-7731-4bf7-8e35-a4b6da4f87c4")
 		)
 		(pin "13"
-			(uuid "abfbb82b-3f73-4cc9-b1e2-f1afefd6047e")
+			(uuid "abfbb82b-3f73-4cc9-b1e2-f1afefd60482")
 		)
 		(pin "3"
-			(uuid "21a816b0-8582-40d3-b0c6-71d1181d993c")
+			(uuid "21a816b0-8582-40d3-b0c6-71d1181d9940")
 		)
 		(pin "11"
-			(uuid "a65653d1-83c4-41f6-9ced-89108f575efa")
+			(uuid "a65653d1-83c4-41f6-9ced-89108f575efe")
 		)
 		(pin "6"
-			(uuid "9021ac2b-7248-44c6-ae93-72216adea869")
+			(uuid "9021ac2b-7248-44c6-ae93-72216adea86d")
 		)
 		(pin "7"
-			(uuid "f225e2ea-d9bd-4d00-8a15-8c33ab1a56d3")
+			(uuid "f225e2ea-d9bd-4d00-8a15-8c33ab1a56d7")
 		)
 		(pin "10"
-			(uuid "a986aee8-6790-472a-9a47-e5df6777c995")
+			(uuid "a986aee8-6790-472a-9a47-e5df6777c999")
 		)
 		(pin "5"
-			(uuid "49158a50-b5b3-41c7-9657-5b6e26471992")
+			(uuid "49158a50-b5b3-41c7-9657-5b6e26471996")
 		)
 		(pin "1"
-			(uuid "04d0d04b-a200-41ee-8ee7-e3a0d7384a8a")
+			(uuid "04d0d04b-a200-41ee-8ee7-e3a0d7384a8e")
 		)
 		(instances
 			(project ""
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
 					(reference "U?")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-10V")
-		(at 182.88 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6542ddd-a300-40d5-ad70-dcbfb2db5ceb")
-		(property "Reference" "#PWR0379"
-			(at 182.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-10V"
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-10V\""
-			(at 182.88 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3d54f9a-d666-45b7-baf9-716a6e106d57")
-		)
-		(instances
-			(project "arena_10_of_10_v1r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "#PWR0379")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+10V")
-		(at 80.01 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6bc3a7d-70ae-4a12-8cb5-b7a8678fda61")
-		(property "Reference" "#PWR0383"
-			(at 80.01 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+10V"
-			(at 80.01 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 80.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bb5349f-1e90-4f1b-8e08-15b7553150f2")
-		)
-		(instances
-			(project ""
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "#PWR0383")
-					(unit 1)
 				)
 			)
 		)
@@ -6144,16 +6070,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 171.45 72.39 0)
+		(lib_id "power:+10V")
+		(at 171.45 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ceb2fde3-4b82-480c-a3e4-d39145856fe2")
-		(property "Reference" "#PWR0362"
-			(at 171.45 76.2 0)
+		(uuid "cdf70645-f4f5-4821-99c9-6fbf108b0580")
+		(property "Reference" "#PWR0378"
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,8 +6087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 171.45 68.58 0)
+		(property "Value" "+10V"
+			(at 171.196 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 72.39 0)
+			(at 171.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 72.39 0)
+			(at 171.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,8 +6113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 171.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,12 +6123,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcd33e2b-b5a5-4ea4-92d4-fb612335de4e")
+			(uuid "35e1f3e3-f3e1-4816-8f5e-02ccfbc0c153")
 		)
 		(instances
 			(project "arena_10_of_10_v1r1"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "#PWR0362")
+					(reference "#PWR0378")
 					(unit 1)
 				)
 			)
@@ -6269,6 +6195,71 @@
 			(project "arena_10_of_10_v1r1"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
 					(reference "#PWR0375")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 203.2 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d349bd7f-66f7-46ec-a677-a09574432952")
+		(property "Reference" "#PWR0379"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 203.2 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95915866-b528-440e-8352-507c0f707bdc")
+		)
+		(instances
+			(project "arena_10_of_10_v1r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
+					(reference "#PWR0379")
 					(unit 1)
 				)
 			)
@@ -6771,6 +6762,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+10V")
+		(at 171.45 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3c7d0b1-cb20-4e6b-8e4f-1c8be6e47866")
+		(property "Reference" "#PWR0362"
+			(at 171.45 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 171.196 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b24c1f75-7ded-4eb0-ba19-76c49b7133e6")
+		)
+		(instances
+			(project ""
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
+					(reference "#PWR0362")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 85.09 80.01 0)
 		(mirror y)
@@ -6837,6 +6893,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 182.88 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0ac929e-1c0f-497e-a719-74ed4c18515a")
+		(property "Reference" "#PWR0382"
+			(at 182.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 182.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "296bf73c-c6bb-4875-90f0-ef3196d8a5ca")
+		)
+		(instances
+			(project "arena_10_of_10_v1r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
+					(reference "#PWR0382")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 182.88 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2dcc0bc-cc54-4ab2-a37f-86de0db743d3")
+		(property "Reference" "#PWR0380"
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf37304e-dfd3-43a5-9113-786970bd03fe")
+		)
+		(instances
+			(project ""
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
+					(reference "#PWR0380")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 55.88 0)
 		(mirror y)
@@ -6897,71 +7083,6 @@
 			(project "arena_10_of_10_v1r1"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
 					(reference "#PWR0358")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-10V")
-		(at 182.88 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe516794-378e-4369-8748-59bf3ff4051b")
-		(property "Reference" "#PWR0380"
-			(at 182.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-10V"
-			(at 182.88 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-10V\""
-			(at 182.88 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95f76b75-0d15-4235-9cd6-5ac2b1d3edab")
-		)
-		(instances
-			(project "arena_10_of_10_v1r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "#PWR0380")
 					(unit 1)
 				)
 			)
