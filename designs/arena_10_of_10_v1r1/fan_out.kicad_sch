@@ -33,6 +33,18 @@
 		)
 		(uuid "00b5c6e2-9c49-4542-b7cf-e4698d3ab237")
 	)
+	(text "Pre-fanout signals"
+		(exclude_from_sim no)
+		(at 40.386 120.396 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "0d15086a-9976-49c2-8468-c05e1f77dbae")
+	)
 	(text "SPI BUS B0 "
 		(exclude_from_sim no)
 		(at 21.59 34.036 0)
@@ -54,18 +66,6 @@
 			(justify left)
 		)
 		(uuid "13118e7f-bd54-4766-9811-c226428427fe")
-	)
-	(text "Singals from/to Teensy"
-		(exclude_from_sim no)
-		(at 40.894 19.304 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "1f5dcb7d-9894-48ae-9081-7097cef1817c")
 	)
 	(text "SPI Bus B1 MOSI\nfor columns P6-P10"
 		(exclude_from_sim no)
@@ -183,6 +183,18 @@
 		)
 		(uuid "abafc62f-a0b9-4429-ad32-c10c2b1ad6c9")
 	)
+	(text "Post-Fanout Signals"
+		(exclude_from_sim no)
+		(at 420.37 286.004 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "bff856cc-35c7-46ec-a875-f83d9d7db22a")
+	)
 	(text "CS for column P4"
 		(exclude_from_sim no)
 		(at 435.102 164.592 0)
@@ -233,6 +245,18 @@
 			)
 		)
 		(uuid "d7dadde4-f29c-4f9a-8c26-cef41e9ef126")
+	)
+	(text "Singals to/from Teensy"
+		(exclude_from_sim no)
+		(at 42.418 21.082 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "e0f7daf1-af98-4a15-a1bf-0a10139ff73d")
 	)
 	(text "SPI Bus B1 MISO\nfor columns P6-P10"
 		(exclude_from_sim no)
