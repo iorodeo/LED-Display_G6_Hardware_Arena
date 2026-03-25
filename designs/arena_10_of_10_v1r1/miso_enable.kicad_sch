@@ -1996,17 +1996,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Check this value ... \nsee calc in data sheet"
-		(exclude_from_sim no)
-		(at 40.386 44.196 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f9f47aa-c82c-421a-a8ec-a2df3fadf8c8")
-	)
 	(text "SN74LVC2G17DBVR\nC10429"
 		(exclude_from_sim no)
 		(at 199.644 28.956 0)
