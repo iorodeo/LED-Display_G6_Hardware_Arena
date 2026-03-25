@@ -759,130 +759,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2544,7 +2420,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 146.05) (xy 45.72 148.59)
+			(xy 52.07 146.05) (xy 52.07 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3154,7 +3030,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 153.67) (xy 45.72 156.21)
+			(xy 52.07 153.67) (xy 52.07 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3381,16 +3257,6 @@
 			(type default)
 		)
 		(uuid "967176f3-d97c-400d-aa06-313677787408")
-	)
-	(wire
-		(pts
-			(xy 57.15 146.05) (xy 60.96 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981555d1-41bf-4d4b-880f-eb1536f6c1b2")
 	)
 	(wire
 		(pts
@@ -3634,7 +3500,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 146.05) (xy 49.53 146.05)
+			(xy 52.07 146.05) (xy 60.96 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6202,7 +6068,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 45.72 151.13 0)
+		(at 52.07 151.13 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6211,7 +6077,7 @@
 		(dnp no)
 		(uuid "67c2f3a4-6d40-4cb5-bd32-7e185ac39730")
 		(property "Reference" "C?"
-			(at 43.18 149.8662 0)
+			(at 49.53 149.8662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6086,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 43.18 152.4062 0)
+			(at 49.53 152.4062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 151.13 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6104,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 151.13 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6113,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 151.13 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,73 +8696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 53.34 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d65f4023-aea7-4884-b636-efbba7aecf9c")
-		(property "Reference" "R?"
-			(at 53.34 143.764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 53.34 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 147.828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1b7f135-b0b2-452f-9547-65556aa1552b")
-		)
-		(pin "1"
-			(uuid "69bd52f6-6477-4818-8d09-1bd779217b29")
-		)
-		(instances
-			(project ""
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/d9742f93-cea2-4d1e-a4e2-1bef85a1b88a"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 48.26 220.98 0)
 		(unit 1)
@@ -9870,7 +9669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 156.21 0)
+		(at 52.07 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9878,7 +9677,7 @@
 		(dnp no)
 		(uuid "fa19c85b-ac81-4276-8186-fda98a804798")
 		(property "Reference" "#PWR0443"
-			(at 45.72 162.56 0)
+			(at 52.07 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +9686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 160.274 0)
+			(at 52.07 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,7 +9694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 156.21 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +9703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 156.21 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +9712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 156.21 0)
+			(at 52.07 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
