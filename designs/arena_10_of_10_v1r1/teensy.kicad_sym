@@ -19426,7 +19426,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Teensy4.1_Ethernet_only"
+	(symbol "Teensy4.1_Ethernet_Only"
 		(pin_names
 			(offset 1.016)
 		)
@@ -19476,7 +19476,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Teensy4.1_Ethernet_only_0_0"
+		(symbol "Teensy4.1_Ethernet_Only_0_0"
 			(polyline
 				(pts
 					(xy -22.86 -6.35) (xy 22.86 -6.35)
@@ -20464,7 +20464,7 @@
 				)
 			)
 		)
-		(symbol "Teensy4.1_Ethernet_only_0_1"
+		(symbol "Teensy4.1_Ethernet_Only_0_1"
 			(rectangle
 				(start -20.32 -1.27)
 				(end -20.32 -1.27)
@@ -20477,7 +20477,7 @@
 				)
 			)
 		)
-		(symbol "Teensy4.1_Ethernet_only_1_1"
+		(symbol "Teensy4.1_Ethernet_Only_1_1"
 			(rectangle
 				(start -22.86 60.96)
 				(end 22.86 -27.94)

@@ -374,6 +374,76 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "panel_silk:panel_silk"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -8.382 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "panel_silk_1_1"
+				(rectangle
+					(start -8.89 2.286)
+					(end 8.89 -2.286)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Panel Silkscreen"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -979,7 +1049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 161.29 69.85 0)
 			(effects
 				(font
@@ -1091,7 +1161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -1170,6 +1240,104 @@
 		)
 	)
 	(symbol
+		(lib_id "panel_silk:panel_silk")
+		(at 161.29 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7211ada0-bb8f-441e-877f-a768b20d31a6")
+		(property "Reference" "P1"
+			(at 169.164 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NA"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "panel_silk:Panel_Silk"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/2d48c774-5bc7-44a4-9df6-3d6978bb1a97"
+					(reference "P8")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/2ea8ae5a-de16-4e05-aa10-4b631d39866b"
+					(reference "P10")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/3f550e36-6b1c-4366-9cef-eaf43ff57ed4"
+					(reference "P1")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/51470252-73d0-4c49-9e01-600741a5432e"
+					(reference "P3")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/5b4b3792-1e39-479f-bd98-38e020ce3fcb"
+					(reference "P9")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/92c2be2f-8271-448b-8aa4-e4b8407efff6"
+					(reference "P6")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/dd831cd8-a815-4f96-a072-dbf69e6ca36d"
+					(reference "P2")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/e576223b-3974-48ef-8061-d66ec99be93c"
+					(reference "P5")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/e9282780-0e45-440c-a214-c0eb816f51cd"
+					(reference "P4")
+					(unit 1)
+				)
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/f30e8937-4e73-4e94-bb30-d8448d44cc0d"
+					(reference "P7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 161.29 85.09 0)
 		(unit 1)
@@ -1197,7 +1365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 161.29 85.09 0)
 			(effects
 				(font

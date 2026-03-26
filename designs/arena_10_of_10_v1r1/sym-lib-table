@@ -4,4 +4,5 @@
   (lib (name "SN74HCS08")(type "KiCad")(uri "${KIPRJMOD}/SN74HCS08.kicad_sym")(options "")(descr ""))
   (lib (name "Cetus_RJ45_MagJack")(type "KiCad")(uri "${KIPRJMOD}/Cetus_RJ45_MagJack.kicad_sym")(options "")(descr ""))
   (lib (name "recom_rbxxyyd")(type "KiCad")(uri "${KIPRJMOD}/recom_rbxxyyd.kicad_sym")(options "")(descr ""))
+  (lib (name "panel_silk")(type "KiCad")(uri "${KIPRJMOD}/panel_silk.kicad_sym")(options "")(descr ""))
 )

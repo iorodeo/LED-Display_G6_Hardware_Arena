@@ -1,4 +1,4 @@
-26193307477791987
+26200405412965299
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BNC
+BNC
+
+
+0
+4
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -91629,6 +91636,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RB-XXYYD
+RB-XXYYYD
+
+
+0
+5
+5
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -104180,6 +104194,13 @@ Varistor VF
 0
 2
 2
+panel_silk
+Panel_Silk
+
+
+0
+0
+0
 teensy
 Teensy1.0
 11
@@ -104257,6 +104278,13 @@ Teensy41
 0
 67
 67
+teensy
+Teensy41_ethernet_only
+
+
+0
+55
+55
 teensy
 Teensy41_outer_only
 

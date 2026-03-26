@@ -4108,7 +4108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 248.92 0)
 			(effects
 				(font
@@ -4177,7 +4177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 127 0)
 			(effects
 				(font
@@ -4376,7 +4376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 86.36 82.55 0)
 			(effects
 				(font
@@ -4463,7 +4463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 119.38 0)
 			(effects
 				(font
@@ -4598,7 +4598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 87.63 24.13 0)
 			(effects
 				(font
@@ -4733,7 +4733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -4868,7 +4868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 151.13 0)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 140.97 222.25 0)
 			(effects
 				(font
@@ -5139,7 +5139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 101.6 222.25 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 77.47 0)
 			(effects
 				(font
@@ -5344,7 +5344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 172.72 0)
 			(effects
 				(font
@@ -5412,7 +5412,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 118.11 190.5 0)
 			(effects
 				(font
@@ -5767,7 +5767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.49 121.92 0)
 			(effects
 				(font
@@ -5837,7 +5837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 40.64 233.68 0)
 			(effects
 				(font
@@ -6123,7 +6123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 76.2 24.13 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 39.37 151.13 0)
 			(effects
 				(font
@@ -6327,7 +6327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 86.36 124.46 0)
 			(effects
 				(font
@@ -6479,7 +6479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 125.73 121.92 0)
 			(effects
 				(font
@@ -6764,7 +6764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BNC:BNC"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -6834,7 +6834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 59.69 247.65 0)
 			(effects
 				(font
@@ -6904,7 +6904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 222.25 0)
 			(effects
 				(font
@@ -6973,7 +6973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.16 114.3 0)
 			(effects
 				(font
@@ -7043,7 +7043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 59.69 220.98 0)
 			(effects
 				(font
@@ -7245,7 +7245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.09 170.18 0)
 			(effects
 				(font
@@ -7584,7 +7584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 247.65 0)
 			(effects
 				(font
@@ -7654,7 +7654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 121.92 234.95 0)
 			(effects
 				(font
@@ -7896,7 +7896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -8115,7 +8115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.17 222.25 0)
 			(effects
 				(font
@@ -8186,7 +8186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BNC:BNC"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -8717,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 116.84 165.1 0)
 			(effects
 				(font
@@ -9022,7 +9022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 220.98 0)
 			(effects
 				(font
@@ -9091,7 +9091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -9160,7 +9160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 110.49 80.01 0)
 			(effects
 				(font
@@ -9231,7 +9231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BNC:BNC"
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -9564,7 +9564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 82.55 234.95 0)
 			(effects
 				(font
@@ -9652,7 +9652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.17 248.92 0)
 			(effects
 				(font
@@ -9788,7 +9788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 140.97 248.92 0)
 			(effects
 				(font
@@ -9924,7 +9924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 101.6 248.92 0)
 			(effects
 				(font

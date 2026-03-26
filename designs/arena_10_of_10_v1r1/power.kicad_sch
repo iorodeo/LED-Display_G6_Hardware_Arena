@@ -2566,7 +2566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RB-XXYYD:RB-XXYYYD"
 			(at 153.67 40.64 0)
 			(effects
 				(font
