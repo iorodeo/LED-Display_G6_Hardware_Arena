@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.01 0.73 0)
+		(at 0 3.04 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "333c6f3b-51fd-413a-bdb4-12f9e6374407")
@@ -54,20 +54,9 @@
 			)
 		)
 	)
-	(attr smd)
-	(fp_line
-		(start -22.75 -6)
-		(end 22.75 -6)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2c4fc9be-99c7-4d78-a9e2-d64f5d20ee4f")
-	)
 	(fp_line
 		(start -22.75 0)
-		(end -22.75 -6)
+		(end -22.75 -3.5)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -87,7 +76,7 @@
 	)
 	(fp_line
 		(start 22.75 0)
-		(end 22.75 -6)
+		(end 22.75 -3.5)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -114,6 +103,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "106aa1fb-6676-4fa6-ba88-0c9cd0ca634d")
+	)
+	(fp_line
+		(start -22.75 -3.5)
+		(end 22.75 -3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4c9a1842-d901-4aee-9626-36e9110f92ad")
 	)
 	(fp_line
 		(start -21.8 0)
@@ -576,7 +575,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.01 -4.98 0)
+		(at 0.04 -2.56 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f3621466-11cd-4ef1-b9a4-624337ed3df7")
