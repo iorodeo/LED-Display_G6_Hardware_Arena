@@ -5,7 +5,7 @@ length = 'mm'        # units used for lengths
 [panel]              # Panel parameters
 number = 10          # number of panels in  the arena
 omitted = []         # list  of omitted panels
-offset_angle = 0.0   # offset angle for panel position
+offset_angle = 108.0 # offset angle for panel position
 adjust_angle = 180.0 # rotation/orientation adjustment angle
 width = 45.5         # width of panels 
 depth = 4.77         # depth from front to back of panels 
@@ -22,7 +22,7 @@ size_y = 228.6       # PCB size in y-dimension
 center_x = 177.8     # PCB center x-coordinate
 center_y = 177.8     # PCB center y-coordinate 
 line_width = 0.3     # PCB edge line width
-cutout_diam = 140.0  # Inside hole radius
+cutout_diam = 137.0  # Inside hole radius
 add_boundary = true  # Add PCB boundary 
 add_cutout = true    # Add PCB internal cutout
 
