@@ -1,4 +1,4 @@
-26200405412965299
+26221699810092370
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104194,6 +104194,90 @@ Varistor VF
 0
 2
 2
+arena_custom
+Capacitor_Polarized
+ELECTROLYTIC CAPACITOR
+ELECTROLYTIC CAPACITOR
+0
+2
+2
+arena_custom
+D24V6Fx
+
+
+0
+4
+4
+arena_custom
+DCJACK_2PIN_HIGHCURRENT
+
+
+0
+5
+2
+arena_custom
+HEADER_TOP
+
+
+0
+15
+15
+arena_custom
+JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+6
+5
+arena_custom
+NS-Tech_Grove_1x04_P2mm_Horizontal
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+arena_custom
+NS-Tech_Grove_1x04_P2mm_Horizontal_silk_inside
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+arena_custom
+NS-Tech_Grove_1x04_P2mm_Vertical_silk_inside
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+arena_custom
+SPARKFUN_TXB0104
+
+
+0
+14
+14
+arena_custom
+TE_CONN_DSUB_RA_68
+
+
+0
+70
+70
+arena_custom
+TO-252
+
+
+0
+3
+3
+arena_custom
+slide_switch
+
+
+0
+3
+3
 panel_silk
 Panel_Silk
 
@@ -104283,8 +104367,8 @@ Teensy41_ethernet_only
 
 
 0
-55
-55
+54
+54
 teensy
 Teensy41_outer_only
 

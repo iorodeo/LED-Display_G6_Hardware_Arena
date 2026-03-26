@@ -1157,16 +1157,6 @@
 		)
 		(uuid "a5ecdbc8-4bed-4313-b331-01078fadb320")
 	)
-	(polyline
-		(pts
-			(xy 68.58 30.48) (xy 68.58 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac2f75b9-03a5-4dcc-8509-ce13c153c5e6")
-	)
 	(wire
 		(pts
 			(xy 96.52 109.22) (xy 100.33 109.22)
@@ -2329,7 +2319,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 73.66 58.42 180)
+		(at 76.2 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2337,7 +2327,7 @@
 		(dnp no)
 		(uuid "37f0cd23-8c83-47f1-a2dc-e261502a340a")
 		(property "Reference" "U42"
-			(at 68.834 65.532 0)
+			(at 81.026 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2335,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 69.342 62.738 0)
+			(at 80.518 19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2343,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 73.66 58.42 0)
+			(at 76.2 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2352,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 73.66 58.42 0)
+			(at 76.2 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2361,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer, Schmitt Triggered, Low-Voltage CMOS"
-			(at 73.66 58.42 0)
+			(at 76.2 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e8f4e29-ec8f-448f-95b3-1660ade22126")
-		(property "Reference" "C44"
+		(property "Reference" "C45"
 			(at 213.36 31.7499 0)
 			(effects
 				(font
@@ -2823,7 +2813,7 @@
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/3f550e36-6b1c-4366-9cef-eaf43ff57ed4/9cbd2f9c-8fd6-45fc-a308-cb29b4b17e7c"
-					(reference "C44")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/51470252-73d0-4c49-9e01-600741a5432e/9cbd2f9c-8fd6-45fc-a308-cb29b4b17e7c"
@@ -2983,7 +2973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6464bdef-d09e-4a66-9d34-88ade4856cb0")
-		(property "Reference" "C43"
+		(property "Reference" "C44"
 			(at 173.99 31.7499 0)
 			(effects
 				(font
@@ -3045,7 +3035,7 @@
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/3f550e36-6b1c-4366-9cef-eaf43ff57ed4/9cbd2f9c-8fd6-45fc-a308-cb29b4b17e7c"
-					(reference "C43")
+					(reference "C44")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/51470252-73d0-4c49-9e01-600741a5432e/9cbd2f9c-8fd6-45fc-a308-cb29b4b17e7c"
@@ -3952,7 +3942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d8ab96-e407-4192-90ae-279b6581ada1")
-		(property "Reference" "C45"
+		(property "Reference" "C46"
 			(at 213.36 74.9299 0)
 			(effects
 				(font
@@ -4014,7 +4004,7 @@
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/3f550e36-6b1c-4366-9cef-eaf43ff57ed4/9cbd2f9c-8fd6-45fc-a308-cb29b4b17e7c"
-					(reference "C45")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/51470252-73d0-4c49-9e01-600741a5432e/9cbd2f9c-8fd6-45fc-a308-cb29b4b17e7c"
@@ -4692,8 +4682,8 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 76.2 24.13 0)
-		(mirror x)
+		(at 73.66 58.42 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4701,7 +4691,7 @@
 		(dnp no)
 		(uuid "dbaa06f2-a87e-462d-839e-f39a61312d4a")
 		(property "Reference" "U43"
-			(at 81.026 31.242 0)
+			(at 68.834 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4699,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 80.518 28.448 0)
+			(at 69.342 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4707,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 76.2 24.13 0)
+			(at 73.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4716,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 76.2 24.13 0)
+			(at 73.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4725,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer, Schmitt Triggered, Low-Voltage CMOS"
-			(at 76.2 24.13 0)
+			(at 73.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,7 +4909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f06ed7e2-b567-4678-ae3e-205768a2aa6d")
-		(property "Reference" "C42"
+		(property "Reference" "C43"
 			(at 172.72 76.1999 0)
 			(effects
 				(font
@@ -4981,7 +4971,7 @@
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/3f550e36-6b1c-4366-9cef-eaf43ff57ed4/9cbd2f9c-8fd6-45fc-a308-cb29b4b17e7c"
-					(reference "C42")
+					(reference "C43")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/51470252-73d0-4c49-9e01-600741a5432e/9cbd2f9c-8fd6-45fc-a308-cb29b4b17e7c"
