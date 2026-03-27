@@ -4096,12 +4096,6 @@
 		(uuid "a36de527-c785-411f-9a69-ddc33b65a507")
 	)
 	(junction
-		(at 109.22 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e939cac1-3acf-4ada-806d-c3757297a9b8")
-	)
-	(junction
 		(at 54.61 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4923,6 +4917,16 @@
 			(type default)
 		)
 		(uuid "3557ba32-a2a5-4897-832d-03cb334510fa")
+	)
+	(wire
+		(pts
+			(xy 20.32 20.32) (xy 20.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356b0678-667f-4b81-a1de-3252194accc2")
 	)
 	(wire
 		(pts
@@ -6244,16 +6248,6 @@
 		)
 		(uuid "e9a4938e-5007-488a-b6aa-657661309611")
 	)
-	(wire
-		(pts
-			(xy 109.22 22.86) (xy 109.22 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec71c9d3-3a92-41ec-a641-c28a95b5187b")
-	)
 	(polyline
 		(pts
 			(xy 214.63 24.13) (xy 214.63 29.21)
@@ -6473,6 +6467,16 @@
 			(justify left bottom)
 		)
 		(uuid "22dca2d1-da8c-4c2d-a81e-c25b51fb02cd")
+	)
+	(label "VIN"
+		(at 20.32 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23fb56bb-6277-4a5e-91c3-4dd89eb1a3d7")
 	)
 	(label "TNY.CS_10"
 		(at 217.17 69.85 0)
@@ -9908,7 +9912,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 109.22 22.86 0)
+		(at 20.32 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9916,7 +9920,7 @@
 		(dnp no)
 		(uuid "a52bc74a-e7da-4cff-bff7-1fb8496e844b")
 		(property "Reference" "#FLG07"
-			(at 109.22 20.955 0)
+			(at 20.32 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9925,7 +9929,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 109.22 19.05 0)
+			(at 20.32 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +9937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 22.86 0)
+			(at 20.32 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +9946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 22.86 0)
+			(at 20.32 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9951,7 +9955,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 22.86 0)
+			(at 20.32 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
