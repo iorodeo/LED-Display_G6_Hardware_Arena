@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "JLCPCB via to PTH/NPTH clearance"
+  (condition "A.Type == 'via' && B.isPlated() == false || A.Type == 'via' && B.isPlated() == true")
+  (constraint hole_to_hole (min 0.45mm))
+)
