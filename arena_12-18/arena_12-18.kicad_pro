@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.7,
+          "width": 1.15
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,8 +60,8 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
-          "min_island_area": 10.0,
+          "min_clearance": 0.5,
+          "min_island_area": 0.0013161349,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -211,16 +211,7 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.3,
-        0.4,
-        0.6,
-        0.7,
-        0.8,
-        0.9,
-        1.0,
-        2.0,
-        3.0
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -254,11 +245,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.6,
+          "diameter": 0.45,
           "drill": 0.3
         }
       ],
@@ -1128,23 +1115,23 @@
     ],
     [
       "663415c4-f2de-423f-a044-435b4d777b8b",
-      "CIPO B1 Enable for P6"
-    ],
-    [
-      "840d2656-6345-40d2-bf40-7d6d7915beb9",
       "CIPO B1 Enable for P7"
     ],
     [
-      "437aabdb-2b8c-4506-bc2a-ce7944911b34",
+      "840d2656-6345-40d2-bf40-7d6d7915beb9",
       "CIPO B1 Enable for P8"
     ],
     [
-      "091d19c8-f73c-4fb8-8db3-0eee7b084dbc",
+      "437aabdb-2b8c-4506-bc2a-ce7944911b34",
       "CIPO B1 Enable for P9"
     ],
     [
-      "28556eb3-29fc-492e-8ec1-5db2a88ed7ef",
+      "091d19c8-f73c-4fb8-8db3-0eee7b084dbc",
       "CIPO B1 Enable for P10"
+    ],
+    [
+      "28556eb3-29fc-492e-8ec1-5db2a88ed7ef",
+      "CIPO B1 Enable for P11"
     ],
     [
       "a5d2748c-1cec-4fd9-abd0-fb7256c6cbef",
