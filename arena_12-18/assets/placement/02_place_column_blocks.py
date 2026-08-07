@@ -53,6 +53,19 @@ AT_RE = re.compile(r"\(at (-?[\d.]+) (-?[\d.]+)(?: (-?[\d.]+))?\)")
 # CIPO-enable sub-sheets ("CIPO B0/B1 Enable for Pn") also belong to a column.
 ENABLE_SHEETFILE = "cipo_enable.kicad_sch"
 ENABLE_SHEET_RE = re.compile(r"Enable for (P\d+)")
+
+# Shared dual fan-out buffers: each drives a panel PAIR (odd n-1 and even n) with
+# one Teensy signal (SCK/COPI/EINT). Only the buffer and its decoupling cap are
+# shared; the series output resistors are per-column. The P1/P2 pair is the
+# template -- list its shared parts here; every other pair's equivalents are found
+# by connectivity. Shared parts replicate per PAIR, anchored on the even connector
+# (P2,P4,...,P12  =>  40 deg steps), not per column (20 deg).
+SHARED_BUFFERS = ["U4", "U7", "U39"]     # SCK, COPI, EINT dual buffers (P1/P2 pair)
+SHARED_CAPS    = ["C6", "C9", "C41"]     # their decoupling caps (one per buffer)
+PAIR_ANCHORS   = [2, 4, 6, 8, 10, 12]    # even connector of each pair; P2 = template
+# buffer leaf -> its decoupling-cap leaf (position within a fan-out sheet); used to
+# pick the right cap in each pair's buffer sheet-instance.
+BUF_CAP_LEAF = {"313127c6": "e4a4fe85", "3dec7679": "7434dac7", "c7ec63a9": "1df1b107"}
 # element keywords that own an (at ...); only text angles are absolute
 TEXT_OWNERS = ("fp_text", "property", "gr_text")
 OTHER_OWNERS = ("pad", "fp_line", "fp_circle", "fp_arc", "fp_poly",
@@ -81,6 +94,23 @@ def kicad_rotate(x: float, y: float, deg: float) -> tuple[float, float]:
     r = math.radians(-deg)
     c, s = math.cos(r), math.sin(r)
     return (x * c - y * s, x * s + y * c)
+
+
+def swap_col(net: str, k: int) -> str:
+    """Retarget a P2 column-tagged net to column k: fix the SCK/COPI bank (B0 for
+    P1-P6, B1 for P7-P12) and swap the _P2 suffix. Bankless nets (EINT, etc.) just
+    get the suffix swapped."""
+    net = re.sub(r"_B[01]_", "_B0_" if k <= 6 else "_B1_", net)
+    return re.sub(r"_P2$", f"_P{k}", net)
+
+
+def pad_nets(txt: str, fp: dict) -> dict[str, str]:
+    """{pad number: net name} for one footprint (from its span)."""
+    b = txt[fp["span"][0]:fp["span"][1]]
+    d: dict[str, str] = {}
+    for pm in re.finditer(r'\(pad "([^"]+)".*?\(net "([^"]*)"\)', b, re.S):
+        d.setdefault(pm.group(1), pm.group(2))
+    return d
 
 
 def find_footprints(txt: str) -> dict[str, dict]:
@@ -174,6 +204,87 @@ def rewrite_block(block: str, nx: float, ny: float, nrot: float) -> str:
     return "".join(out)
 
 
+def template_shared(txt, fps, pn):
+    """[(buffer, cap, P2-side series-resistor PAN net)] for the template pair.
+
+    For each shared buffer, find the P2-side series resistor (a resistor on one of
+    the buffer's Net-(...) outputs whose other pad is a PAN.*_P2 net); its PAN net
+    is what swap_col() retargets to locate the same buffer for each other pair.
+    """
+    out = []
+    for buf, cap in zip(SHARED_BUFFERS, SHARED_CAPS):
+        outs = {n for n in pn[buf].values() if n.startswith("Net-(")}
+        pan = None
+        for r, d in pn.items():
+            if r[0] == "R" and outs & set(d.values()):
+                p2 = [n for n in d.values() if n.endswith("_P2")]
+                if p2:
+                    pan = p2[0]
+                    break
+        out.append((buf, cap, pan))
+    return out
+
+
+def place_shared_buffers(txt, fps, pn, edits):
+    """Place each pair's shared dual-buffers + caps at P2's offset, anchored on the
+    even connector, replicated per PAIR (P2,P4,...,P12 => 40 deg steps).
+
+    Only the buffers (U4/U7/U39-equivalent) and their caps (C6/C9/C41) are shared;
+    each pair's buffer is found by connectivity to that pair's even series resistor
+    (via swap_col), and its cap is the C sharing the buffer's fan-out sheet
+    instance (colinst) with the paired cap leaf.
+    """
+    template = template_shared(txt, fps, pn)
+    p2 = fps[TEMPLATE_COL]
+    offs = {}                                       # ref -> (lx, ly, da)
+    for ref in SHARED_BUFFERS + SHARED_CAPS:
+        f = fps[ref]
+        lx, ly = kicad_rotate(f["x"] - p2["x"], f["y"] - p2["y"], -p2["a"])
+        offs[ref] = (lx, ly, f["a"] - p2["a"])
+
+    def anchor_refs(e):
+        """{template_ref: this-pair's ref} for even anchor Pe, by connectivity."""
+        out = {}
+        for buf, cap, pan in template:
+            if not pan:
+                continue
+            tgt = swap_col(pan, e)
+            rk = next((r for r in fps if r[0] == "R" and tgt in pn[r].values()), None)
+            if not rk:
+                continue
+            outn = next((n for n in pn[rk].values() if n.startswith("Net-(")), None)
+            bufk = next((u for u in fps if u[0] == "U" and outn in pn[u].values()), None)
+            if not bufk:
+                continue
+            out[buf] = bufk
+            cp = BUF_CAP_LEAF.get((fps[bufk]["leaf"] or "")[:8], "\0")
+            capk = next((c for c in fps if c[0] == "C"
+                         and fps[c]["colinst"] == fps[bufk]["colinst"]
+                         and (fps[c]["leaf"] or "").startswith(cp)), None)
+            if capk:
+                out[cap] = capk
+        return out
+
+    print("Shared buffers/caps (per pair, anchored on even connector):")
+    for e in PAIR_ANCHORS:
+        if e == int(TEMPLATE_COL[1:]):
+            continue
+        conn = fps[f"P{e}"]
+        corr = anchor_refs(e)
+        placed = []
+        for ref in SHARED_BUFFERS + SHARED_CAPS:
+            tref = corr.get(ref)
+            if not tref:
+                continue
+            lx, ly, da = offs[ref]
+            gx, gy = kicad_rotate(lx, ly, conn["a"])
+            s, en = fps[tref]["span"]
+            edits.append((s, en, rewrite_block(txt[s:en], conn["x"] + gx, conn["y"] + gy,
+                                               norm_angle(conn["a"] + da))))
+            placed.append(f"{ref}->{tref}")
+        print(f"  pair P{e-1}/P{e}: {', '.join(placed)}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -225,12 +336,33 @@ def main() -> None:
     print(f"Template = column {TEMPLATE_COL} ({fps[TEMPLATE_COL].get('leaf','')[:8]} connector), "
           f"{len(template)} parts relative to {TEMPLATE_COL}.\n")
 
+    # Per-column series output resistors (Fan-Out): each has one pad on a shared
+    # buffer output (Net-(R..-Pad1)) and the other on a PAN.*_P2 panel net. They
+    # are the last per-column hop before the shared buffer, so they replicate per
+    # column (20 deg) like the panel-column parts, mapped by their PAN net.
+    pn = {ref: pad_nets(txt, f) for ref, f in fps.items()}
+    buf_out = {n for buf in SHARED_BUFFERS if buf in fps
+               for n in pn[buf].values() if n.startswith("Net-(")}
+    series = []   # (pan_net_P2, rel_x, rel_y, rel_a)
+    for ref, d in pn.items():
+        if ref[0] != "R" or not (buf_out & set(d.values())):
+            continue
+        pan = [n for n in d.values() if n.endswith("_P2") and n not in buf_out]
+        if pan:
+            f = fps[ref]
+            lx, ly = kicad_rotate(f["x"] - anchor["x"], f["y"] - anchor["y"], -anchor["a"])
+            series.append((pan[0], lx, ly, f["a"] - anchor["a"]))
+    if series:
+        print(f"Per-column series resistors: {len(series)} "
+              f"({', '.join(p for p, *_ in series)}).\n")
+
     edits = []   # (start, end, newtext)
     for col in CONNECTORS:
         if col == TEMPLATE_COL:
             print(f"{col}: template, left unchanged.")
             continue
         cfp = fps[col]                      # this column's connector (fixed anchor)
+        k = int(col[1:])
         members = columns[col]
         placed = missing_here = 0
         samples = []
@@ -247,11 +379,22 @@ def main() -> None:
             placed += 1
             if len(samples) < 2:
                 samples.append(f"{ref}->({fmt(nx)},{fmt(ny)},{fmt(na)})")
+        for pan, lx, ly, da in series:               # this column's series resistors
+            tref = next((r for r in fps if r[0] == "R" and swap_col(pan, k) in pn[r].values()), None)
+            if tref:
+                gx, gy = kicad_rotate(lx, ly, cfp["a"])
+                s, e = fps[tref]["span"]
+                edits.append((s, e, rewrite_block(txt[s:e], cfp["x"] + gx, cfp["y"] + gy,
+                                                  norm_angle(cfp["a"] + da))))
+                placed += 1
         extra = [members[l] for l in members if l not in template and l != conn_leaf]
         note = f"  UNMATCHED template parts: {missing_here}" if missing_here else ""
         note += f"  extra-not-in-template: {extra}" if extra else ""
         print(f"{col}: connector at ({fmt(cfp['x'])},{fmt(cfp['y'])},{fmt(cfp['a'])}), "
               f"placed {placed} parts. e.g. {', '.join(samples)}{note}")
+
+    # shared dual-buffers + caps, anchored on the even connector of each pair
+    place_shared_buffers(txt, fps, pn, edits)
 
     # apply edits back-to-front so spans stay valid
     for s, e, newtext in sorted(edits, key=lambda t: t[0], reverse=True):

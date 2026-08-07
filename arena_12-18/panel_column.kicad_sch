@@ -1458,15 +1458,15 @@
 		(instances
 			(project "arena_12-18"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/22e744c9-b090-495f-8a7a-6f172c4fef79"
-					(reference "P11")
+					(reference "P6")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/2d48c774-5bc7-44a4-9df6-3d6978bb1a97"
-					(reference "P8")
+					(reference "P9")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/2ea8ae5a-de16-4e05-aa10-4b631d39866b"
-					(reference "P10")
+					(reference "P11")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/3f550e36-6b1c-4366-9cef-eaf43ff57ed4"
@@ -1478,11 +1478,11 @@
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/5b4b3792-1e39-479f-bd98-38e020ce3fcb"
-					(reference "P9")
+					(reference "P10")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/92c2be2f-8271-448b-8aa4-e4b8407efff6"
-					(reference "P6")
+					(reference "P7")
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/dd831cd8-a815-4f96-a072-dbf69e6ca36d"
@@ -1502,7 +1502,7 @@
 					(unit 1)
 				)
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/3aea6610-f2a3-4b21-99b1-2866223bb12f/f30e8937-4e73-4e94-bb30-d8448d44cc0d"
-					(reference "P7")
+					(reference "P8")
 					(unit 1)
 				)
 			)
