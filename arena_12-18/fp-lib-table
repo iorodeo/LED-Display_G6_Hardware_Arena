@@ -5,4 +5,5 @@
 	(lib (name "panel_silk") (type "KiCad") (uri "${KIPRJMOD}/panel_silk.pretty") (options "") (descr ""))
 	(lib (name "RB-XXYYD") (type "KiCad") (uri "${KIPRJMOD}/RB-XXYYD.pretty") (options "") (descr ""))
 	(lib (name "arena_custom") (type "KiCad") (uri "${KIPRJMOD}/arena_custom.pretty") (options "") (descr ""))
+	(lib (name "SparkFun-Qwiic") (type "KiCad") (uri "${KIPRJMOD}/SparkFun-Qwiic.pretty") (options "") (descr ""))
 )
