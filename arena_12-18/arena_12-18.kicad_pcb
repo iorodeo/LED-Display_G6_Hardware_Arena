@@ -49303,7 +49303,7 @@
 		(uuid "50aa65e1-ac6a-4370-891a-b523e19b1f8a")
 		(at 348 156 -90)
 		(property "Reference" "J27"
-			(at 0 4.9 270)
+			(at -6.4 -10 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "90ffd91c-35d2-41a6-aa04-3a090fd617eb")
@@ -70165,7 +70165,7 @@
 		(uuid "748f9d48-1afd-4dfb-a3be-10c32851eb1d")
 		(at 348 196 -90)
 		(property "Reference" "J28"
-			(at 0 4.9 270)
+			(at -6.4 -10.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "89e8eca7-3263-4004-bb7b-758d82e89e7f")
@@ -93135,6 +93135,7 @@
 		(property "Reference" "SW1"
 			(at 0 -6.35 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "39aa18ac-9866-41c2-a5ff-38daf7f5a4d2")
 			(effects
 				(font
@@ -101486,7 +101487,7 @@
 				)
 			)
 		)
-		(property "Value" "RB-XXYYD"
+		(property "Value" "RB-0515D"
 			(at 11.684 1.016 90)
 			(layer "F.SilkS")
 			(uuid "e34df89a-57ee-447b-a6d0-fc7eb6ad35c1")
@@ -150850,6 +150851,70 @@
 			)
 		)
 	)
+	(gr_arc
+		(start 257.447101 86.4)
+		(mid 258.8 83.020661)
+		(end 260.312108 86.331824)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f4c4e82-5cbd-4e42-b819-e956e6babcc1")
+	)
+	(gr_circle
+		(center 258.847101 85)
+		(end 259.647101 85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8d8656ec-2964-4f49-a167-00800707946c")
+	)
+	(gr_line
+		(start 259.8 85)
+		(end 288.283401 85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dcb92013-0b0c-4a53-a365-127d1f39c3ae")
+	)
+	(gr_arc
+		(start 257.447101 86.4)
+		(mid 258.8 83.020661)
+		(end 260.312108 86.331824)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "671d5a4b-5ca3-4b58-ae50-1cf2e3d5308f")
+	)
+	(gr_circle
+		(center 258.847101 85)
+		(end 259.647101 85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "c43298a8-34d8-4710-a4d7-c36e0c35531b")
+	)
+	(gr_line
+		(start 259.8 85)
+		(end 288.283401 85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "9ee72500-a4e6-43a4-9043-88ba5d28b324")
+	)
 	(gr_curve
 		(pts
 			(xy 31 108) (xy 31 99.2) (xy 44.6 98.8) (xy 51 98.8)
@@ -151181,6 +151246,40 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Off"
+		(at 349 168.4 90)
+		(layer "F.SilkS")
+		(uuid "cfb93b50-50eb-471e-919c-1ddee9c1b4aa")
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "On"
+		(at 349 182.4 90)
+		(layer "F.SilkS")
+		(uuid "20dd0cc4-1342-4c0b-ba5a-032dd399f32a")
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V → Top"
+		(at 345.6 201.2 90)
+		(layer "F.SilkS")
+		(uuid "2a64ea7f-96b9-478b-a395-4c099b24af06")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5V → Teensy"
 		(at 353 119.6 90)
 		(layer "F.SilkS")
@@ -151193,10 +151292,35 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Inner Diameter: 254mm"
+		(at 261.2 84.8 0)
+		(layer "F.SilkS")
+		(uuid "5167ed57-494e-45ef-b098-5486185b8919")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Analog Output\n0…5V"
 		(at 47 195.4 0)
 		(layer "F.SilkS")
 		(uuid "bf5715e8-abce-4765-af3d-cadc3af0bb40")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "https://reiserlab.github.io/Modular-LED-Display/G6/"
+		(at 210.6 77.6 0)
+		(layer "F.SilkS")
+		(uuid "0f32ea44-1433-4c85-a76a-78da02701918")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -151235,6 +151359,18 @@
 		(effects
 			(font
 				(size 3 3)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 345 158.4 90)
+		(layer "F.SilkS" knockout)
+		(uuid "ec271fe7-d1c8-4efa-a4a3-f4868c475fd5")
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -151311,10 +151447,69 @@
 			(justify right bottom mirror)
 		)
 	)
+	(gr_text "Off"
+		(at 349 168.4 90)
+		(layer "B.SilkS")
+		(uuid "3b57797c-7135-4241-b954-08a77ac62dc0")
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "On"
+		(at 349 182.4 90)
+		(layer "B.SilkS")
+		(uuid "52b696b1-511f-4983-bf4f-75aa9506ab17")
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "5V → Top"
+		(at 345.6 201.2 90)
+		(layer "B.SilkS")
+		(uuid "2cee930b-cce7-48d3-8472-963d527b3f71")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "Inner Diameter: 254mm"
+		(at 261.2 84.8 0)
+		(layer "B.SilkS")
+		(uuid "3f190c71-f325-46c1-9a85-9f423f0d9606")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.125)
+			)
+			(justify right bottom mirror)
+		)
+	)
 	(gr_text "Analog Output\n0…5V"
 		(at 47 201.6 0)
 		(layer "B.SilkS")
 		(uuid "4f3fb101-fb83-4416-8ad5-8e39042a5c8b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "https://reiserlab.github.io/Modular-LED-Display/G6/"
+		(at 210.6 77.6 0)
+		(layer "B.SilkS")
+		(uuid "422abaee-759e-46b0-92f9-960221bb05d2")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -151356,6 +151551,42 @@
 			)
 			(justify right bottom mirror)
 		)
+	)
+	(gr_text "5V"
+		(at 345 158.4 90)
+		(layer "B.SilkS" knockout)
+		(uuid "a5a2986e-768c-482b-be42-6360518d82c2")
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(barcode
+		(at 328.6 119.6 0)
+		(layer "F.SilkS")
+		(size 20 20)
+		(text "https://reiserlab.github.io/Modular-LED-Display/G6/")
+		(text_height 1.5)
+		(type qr)
+		(ecc_level M)
+		(hide yes)
+		(knockout no)
+		(uuid "1815ee6a-8606-4406-9042-b808f67ca1a4")
+	)
+	(barcode
+		(at 328.6 119.4 0)
+		(layer "B.SilkS")
+		(size 20 20)
+		(text "https://reiserlab.github.io/Modular-LED-Display/G6/")
+		(text_height 1.5)
+		(type qr)
+		(ecc_level M)
+		(hide yes)
+		(knockout no)
+		(uuid "bdbfaed9-f8ff-4663-93a4-a90b209ecbd4")
 	)
 	(segment
 		(start 57.2 140.5375)
