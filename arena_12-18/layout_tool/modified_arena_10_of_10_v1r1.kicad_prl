@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -61,15 +61,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "arena_10_of_10_v1r1.kicad_prl",
+    "filename": "modified_arena_10_of_10_v1r1.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false,
@@ -91,17 +87,9 @@
       6,
       7,
       8,
-      9,
-      10,
-      11,
-      12,
-      13
+      9
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0,
