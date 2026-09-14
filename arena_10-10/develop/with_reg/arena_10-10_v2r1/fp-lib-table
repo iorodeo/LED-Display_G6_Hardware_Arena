@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "teensy") (type "KiCad") (uri "${KIPRJMOD}/teensy.pretty") (options "") (descr ""))
+	(lib (name "BNC") (type "KiCad") (uri "${KIPRJMOD}/BNC.pretty") (options "") (descr ""))
+	(lib (name "panel_silk") (type "KiCad") (uri "${KIPRJMOD}/panel_silk.pretty") (options "") (descr ""))
+	(lib (name "RB-XXYYD") (type "KiCad") (uri "${KIPRJMOD}/RB-XXYYD.pretty") (options "") (descr ""))
+	(lib (name "arena_custom") (type "KiCad") (uri "${KIPRJMOD}/arena_custom.pretty") (options "") (descr ""))
+	(lib (name "NID100-5") (type "KiCad") (uri "${KIPRJMOD}/NID100-5.pretty") (options "") (descr ""))
+	(lib (name "AMASS_XT30U_Custom") (type "KiCad") (uri "${KIPRJMOD}/AMASS_XT30U_Custom.pretty") (options "") (descr ""))
+)

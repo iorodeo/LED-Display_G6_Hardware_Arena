@@ -1,0 +1,428 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "056666d2-2c8f-491c-bcad-db3c517779a8")
+	(paper "A4")
+	(title_block
+		(title "G6 Teensy 10-10 Arena")
+		(date "2026-04-28")
+		(rev "v1.1.7")
+		(company "IORodeo for Reiser Lab @ Janelia | HHMI")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 62.23 41.91) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b81581f-e586-4674-8612-975cf734140b")
+	)
+	(bus
+		(pts
+			(xy 101.6 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771d8412-eb88-4911-8f6f-0ebcfa557f4c")
+	)
+	(bus
+		(pts
+			(xy 62.23 48.26) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8372fa-8e69-48db-a859-e807f389b32e")
+	)
+	(bus
+		(pts
+			(xy 140.97 45.72) (xy 153.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d833bf9e-d9f4-4d46-8efe-7f111cd409cc")
+	)
+	(sheet
+		(at 114.3 35.56)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "0054750e-5233-4364-a758-64054997e15b")
+		(property "Sheetname" "Fan Out"
+			(at 114.3 34.5309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan_out.kicad_sch"
+			(at 114.3 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAN{PAN}" bidirectional
+			(at 140.97 45.72 0)
+			(uuid "39572e82-e6ba-4ee5-9582-45075451285b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TNY{TNY}" bidirectional
+			(at 114.3 45.72 180)
+			(uuid "52a025be-e25b-4fbf-9c68-89c262d60f66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "arena_10-10_v2r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 35.56)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "3aea6610-f2a3-4b21-99b1-2866223bb12f")
+		(property "Sheetname" "Panels"
+			(at 153.67 34.5309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "panels.kicad_sch"
+			(at 153.67 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAN{PAN}" bidirectional
+			(at 153.67 45.72 180)
+			(uuid "8af440a6-5347-4e41-8559-d55b643dbc51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "arena_10-10_v2r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.41 35.56)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "3f6f12ad-0207-48b9-8360-f583cf48d0a1")
+		(property "Sheetname" "Mount Holes"
+			(at 232.41 34.5309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "holes.kicad_sch"
+			(at 232.41 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_10-10_v2r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8"
+					(page "53")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 35.56)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "49d7122d-250d-4ac4-9432-46d5d4ec4ae4")
+		(property "Sheetname" "Teensy"
+			(at 74.93 34.5309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "teensy.kicad_sch"
+			(at 74.93 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 74.93 41.91 180)
+			(uuid "c0181318-7de9-4d83-b804-e9b1bff3260d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TNY{TNY}" bidirectional
+			(at 101.6 45.72 0)
+			(uuid "7f8477b3-0275-41b9-8c85-a5b30fdd2b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN{AIN}" bidirectional
+			(at 74.93 48.26 180)
+			(uuid "6948bba2-253e-4ae0-b48b-a60506943579")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "arena_10-10_v2r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 35.56)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "d9742f93-cea2-4d1e-a4e2-1bef85a1b88a")
+		(property "Sheetname" "Analog IO"
+			(at 35.56 34.5309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 35.56 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 62.23 41.91 0)
+			(uuid "93b7c890-8018-463d-aaf5-16600a5d8ea0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN{AIN}" bidirectional
+			(at 62.23 48.26 0)
+			(uuid "d3397ebc-91a3-4bd2-8a15-686b94af8373")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "arena_10-10_v2r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8"
+					(page "52")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 35.56)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "f8e525f6-92ff-481c-b9d6-983b91f2917d")
+		(property "Sheetname" "Power"
+			(at 193.04 34.5309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 193.04 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arena_10-10_v2r1"
+				(path "/056666d2-2c8f-491c-bcad-db3c517779a8"
+					(page "51")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
