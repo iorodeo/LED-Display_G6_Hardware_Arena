@@ -6,4 +6,5 @@
 	(lib (name "recom_rbxxyyd") (type "KiCad") (uri "${KIPRJMOD}/recom_rbxxyyd.kicad_sym") (options "") (descr ""))
 	(lib (name "panel_silk") (type "KiCad") (uri "${KIPRJMOD}/panel_silk.kicad_sym") (options "") (descr ""))
 	(lib (name "NID100-5") (type "KiCad") (uri "${KIPRJMOD}/NID100-5.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS25982") (type "KiCad") (uri "${KIPRJMOD}/TPS25982.kicad_sym") (options "") (descr ""))
 )
