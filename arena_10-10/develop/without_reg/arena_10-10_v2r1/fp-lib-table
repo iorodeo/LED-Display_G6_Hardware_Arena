@@ -7,4 +7,6 @@
 	(lib (name "arena_custom") (type "KiCad") (uri "${KIPRJMOD}/arena_custom.pretty") (options "") (descr ""))
 	(lib (name "NID100-5") (type "KiCad") (uri "${KIPRJMOD}/NID100-5.pretty") (options "") (descr ""))
 	(lib (name "AMASS_XT30U_Custom") (type "KiCad") (uri "${KIPRJMOD}/AMASS_XT30U_Custom.pretty") (options "") (descr ""))
+	(lib (name "SKC_Fuse_SMD") (type "KiCad") (uri "${KIPRJMOD}/SKC_Fuse_SMD.pretty") (options "") (descr ""))
+	(lib (name "TPS25982") (type "KiCad") (uri "${KIPRJMOD}/TPS25982.pretty") (options "") (descr ""))
 )
