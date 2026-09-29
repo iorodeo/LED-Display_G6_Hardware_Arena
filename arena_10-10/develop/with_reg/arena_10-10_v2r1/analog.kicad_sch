@@ -4505,7 +4505,7 @@
 		(dnp no)
 		(uuid "0909215b-2298-4f9c-a1f0-46a7faad7135")
 		(property "Reference" "R179"
-			(at 107.442 125.73 0)
+			(at 109.22 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4515,8 +4515,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
-			(at 108.204 128.27 0)
+		(property "Value" "10k"
+			(at 108.204 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4559,7 +4559,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C705630 "
+		(property "LCSC Part #" "C190095 "
 			(at 104.14 127 0)
 			(hide yes)
 			(show_name no)
@@ -5123,7 +5123,7 @@
 		(dnp no)
 		(uuid "15894e70-6b5f-42e5-a42d-5a73a4d76f46")
 		(property "Reference" "R178"
-			(at 107.442 83.82 0)
+			(at 109.474 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5133,8 +5133,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
-			(at 108.204 86.36 0)
+		(property "Value" "10k"
+			(at 108.458 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5177,7 +5177,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C705630 "
+		(property "LCSC Part #" "C190095 "
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6603,7 +6603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 113.792 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6647,7 +6647,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C190095 "
+		(property "LCSC Part #" "C705630 "
 			(at 110.49 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -10759,7 +10759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 113.792 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10803,7 +10803,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C190095 "
+		(property "LCSC Part #" "C705630 "
 			(at 110.49 80.01 90)
 			(hide yes)
 			(show_name no)
