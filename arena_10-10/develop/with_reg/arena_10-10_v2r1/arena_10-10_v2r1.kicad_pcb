@@ -148314,6 +148314,22 @@
 		(uuid "961afd99-7aea-4bc0-a220-54ef854ea418")
 	)
 	(segment
+		(start 303.935 238.7)
+		(end 303.935 237.895)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Fan Out/PAN.CS_00_P6")
+		(uuid "b5dd4704-335a-4a0d-a9f8-73482716d4c9")
+	)
+	(segment
+		(start 303.935 237.895)
+		(end 302.3428 236.3028)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Fan Out/PAN.CS_00_P6")
+		(uuid "b9bb866b-c2b6-4556-ac7a-e48cdba7a499")
+	)
+	(segment
 		(start 230.9554 109.0174)
 		(end 259.4774 109.0174)
 		(width 0.2)
@@ -160171,6 +160187,14 @@
 		(uuid "99c1d0c9-2b81-40e5-9a06-8e2712e9b847")
 	)
 	(segment
+		(start 303.915 240.76)
+		(end 302.9614 239.8064)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Fan Out/PAN.CS_00_P1")
+		(uuid "9f397f79-4a1b-4476-b288-6b296ea318b6")
+	)
+	(segment
 		(start 280.674 221.6084)
 		(end 287.6669 228.6013)
 		(width 0.2)
@@ -160185,6 +160209,14 @@
 		(layer "F.Cu")
 		(net "/Fan Out/PAN.CS_00_P1")
 		(uuid "beca2c3d-c773-4e43-b2f6-6a01da1093bc")
+	)
+	(segment
+		(start 302.9614 239.8064)
+		(end 302.9614 238.5549)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Fan Out/PAN.CS_00_P1")
+		(uuid "c06c377b-c939-4bf3-bf17-7e2c4b3b7357")
 	)
 	(segment
 		(start 213.875 236.825)
