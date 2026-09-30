@@ -8,6 +8,8 @@ The arena PCB serves as the backplane for a Generation 6 Modular LED Display. It
 
 The first large production run was version 1.1.7, ordered on 2026-04-28.
 
+The top v1.1.7 was ordered on 2026-06-08. Since it contianed a wrong component, this was changed during produciton and the update is now v1.1.8
+
 ## Development and License
 
 The original design was created by Will Dickson of [IORodeo](https://iorodeo.com) for the [Reiser Lab](https://janelia.org/lab/reiser-lab) at [Janelia | HHMI](https://www.janelia.org/). See `LICENSE`.
