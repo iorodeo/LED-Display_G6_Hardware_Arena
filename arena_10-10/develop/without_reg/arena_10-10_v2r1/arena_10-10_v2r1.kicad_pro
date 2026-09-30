@@ -871,7 +871,7 @@
         "uuid": "056666d2-2c8f-491c-bcad-db3c517779a8"
       }
     ],
-    "used_designators": "R217-225,C142-151,D5-6,#PWR14,#PWR434,#PWR436,#PWR438-441,J31,U110-111,U114,F1-21",
+    "used_designators": "F1-21,U110-111,U114,J31,#PWR14,#PWR434,#PWR436,#PWR438-441,D5-6,C142-151,R217-225",
     "variants": []
   },
   "sheets": [
