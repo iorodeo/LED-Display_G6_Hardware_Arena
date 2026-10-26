@@ -4291,6 +4291,19 @@
 		)
 		(uuid "c51c1336-ecda-4baf-8779-922bb6e9d130")
 	)
+	(text "TODO: ADD \nQT-STEMMA I2C"
+		(exclude_from_sim no)
+		(at 108.458 78.232 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ccaab2e5-f0ed-4924-bb6c-08e58b47f7ab")
+	)
 	(text "SPI BUS B1"
 		(exclude_from_sim no)
 		(at 212.598 36.322 0)
@@ -5794,7 +5807,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 129.54 73.66)
+			(xy 105.41 73.66) (xy 132.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6004,7 +6017,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 73.66) (xy 129.54 76.2)
+			(xy 132.08 73.66) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6701,6 +6714,16 @@
 			(type default)
 		)
 		(uuid "f093b965-3610-46e1-90d9-7c63fd18cda2")
+	)
+	(polyline
+		(pts
+			(xy 106.68 74.93) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "f364b281-463e-4b7a-92e5-4b58c86ee9b8")
 	)
 	(wire
 		(pts
@@ -13203,7 +13226,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 129.54 76.2 0)
+		(at 132.08 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13213,7 +13236,7 @@
 		(dnp no)
 		(uuid "db5cd565-d411-4567-b5bc-38f43d8e35d6")
 		(property "Reference" "#PWR05"
-			(at 129.54 82.55 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,7 +13247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 79.756 0)
+			(at 132.08 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13234,7 +13257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 76.2 0)
+			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13245,7 +13268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 76.2 0)
+			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13256,7 +13279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 76.2 0)
+			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -86590,7 +86590,7 @@
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/Document/f2d0830114aabe6ea8d4bb128e962790/XT30U-F.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J26"
-			(at 2.5 -4 0)
+			(at 9.74 -2.09 0)
 			(layer "F.SilkS")
 			(uuid "e971720c-9e1e-465c-b363-11d5f716df58")
 			(effects
@@ -136117,6 +136117,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Note: connect before power on\n"
+		(at 114.3 66.42 180)
+		(layer "F.SilkS")
+		(uuid "3bf5147c-6e1b-49e7-bce3-f86b30536705")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "https://reiserlab.github.io/Modular-LED-Display/"
 		(at 67.775 174.425 90)
 		(layer "F.SilkS")
@@ -136169,7 +136182,7 @@
 		)
 	)
 	(gr_text "5V-to-Top\n"
-		(at 107.5 76 180)
+		(at 107.4 76.25 180)
 		(layer "F.SilkS")
 		(uuid "4d151225-4376-42b6-8c85-31452ebf2a12")
 		(effects
