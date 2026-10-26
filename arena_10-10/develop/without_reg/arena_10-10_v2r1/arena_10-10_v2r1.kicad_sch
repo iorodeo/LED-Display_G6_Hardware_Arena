@@ -13,6 +13,16 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 186.69 64.77) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b1ea2e-0c91-4fa7-a45e-00bfca9e62c5")
+	)
+	(bus
+		(pts
 			(xy 62.23 41.91) (xy 74.93 41.91)
 		)
 		(stroke
@@ -23,7 +33,37 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 45.72) (xy 114.3 45.72)
+			(xy 101.6 48.26) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3764f792-3534-42b4-9a59-3d27581bd96a")
+	)
+	(bus
+		(pts
+			(xy 106.68 64.77) (xy 186.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48fdb86a-bc41-412f-a2eb-a2a1fc770e09")
+	)
+	(bus
+		(pts
+			(xy 106.68 48.26) (xy 106.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3f14f1-0f14-45d5-893e-756714207eb2")
+	)
+	(bus
+		(pts
+			(xy 101.6 41.91) (xy 114.3 41.91)
 		)
 		(stroke
 			(width 0)
@@ -50,6 +90,16 @@
 			(type default)
 		)
 		(uuid "d833bf9e-d9f4-4d46-8efe-7f111cd409cc")
+	)
+	(bus
+		(pts
+			(xy 186.69 49.53) (xy 193.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9452223-ca08-4b5c-b666-5411342d14d3")
 	)
 	(sheet
 		(at 114.3 35.56)
@@ -102,7 +152,7 @@
 			)
 		)
 		(pin "TNY{TNY}" bidirectional
-			(at 114.3 45.72 180)
+			(at 114.3 41.91 180)
 			(uuid "52a025be-e25b-4fbf-9c68-89c262d60f66")
 			(effects
 				(font
@@ -276,7 +326,7 @@
 			)
 		)
 		(pin "TNY{TNY}" bidirectional
-			(at 101.6 45.72 0)
+			(at 101.6 41.91 0)
 			(uuid "7f8477b3-0275-41b9-8c85-a5b30fdd2b7b")
 			(effects
 				(font
@@ -293,6 +343,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PMON{PMON}" input
+			(at 101.6 48.26 0)
+			(uuid "775f1601-eac7-435f-b25e-86f5be0e62f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -409,6 +469,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PMON{PMON}" output
+			(at 193.04 49.53 180)
+			(uuid "b710b044-f1eb-43aa-ab8e-59dfdd03430d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
