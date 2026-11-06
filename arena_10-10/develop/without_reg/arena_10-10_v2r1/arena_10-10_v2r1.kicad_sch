@@ -11,9 +11,15 @@
 		(company "IORodeo for Reiser Lab @ Janelia | HHMI")
 	)
 	(lib_symbols)
+	(junction
+		(at 69.85 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "badaf1ff-2430-4f6d-9d3e-249df99e4294")
+	)
 	(bus
 		(pts
-			(xy 186.69 64.77) (xy 186.69 49.53)
+			(xy 187.96 81.28) (xy 187.96 66.04)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +29,7 @@
 	)
 	(bus
 		(pts
-			(xy 62.23 41.91) (xy 74.93 41.91)
+			(xy 63.5 58.42) (xy 69.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -33,7 +39,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 48.26) (xy 106.68 48.26)
+			(xy 102.87 64.77) (xy 107.95 64.77)
 		)
 		(stroke
 			(width 0)
@@ -43,7 +49,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 64.77) (xy 186.69 64.77)
+			(xy 107.95 81.28) (xy 187.96 81.28)
 		)
 		(stroke
 			(width 0)
@@ -53,7 +59,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 48.26) (xy 106.68 64.77)
+			(xy 107.95 64.77) (xy 107.95 81.28)
 		)
 		(stroke
 			(width 0)
@@ -63,7 +69,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 41.91) (xy 114.3 41.91)
+			(xy 102.87 58.42) (xy 115.57 58.42)
 		)
 		(stroke
 			(width 0)
@@ -73,7 +79,27 @@
 	)
 	(bus
 		(pts
-			(xy 62.23 48.26) (xy 74.93 48.26)
+			(xy 69.85 43.18) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d18daf-3665-4829-90a9-6b8f18f39379")
+	)
+	(bus
+		(pts
+			(xy 187.96 43.18) (xy 187.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac6f143-2528-446b-9cd9-6cf0c2e1975b")
+	)
+	(bus
+		(pts
+			(xy 63.5 64.77) (xy 76.2 64.77)
 		)
 		(stroke
 			(width 0)
@@ -83,7 +109,7 @@
 	)
 	(bus
 		(pts
-			(xy 140.97 45.72) (xy 153.67 45.72)
+			(xy 142.24 62.23) (xy 154.94 62.23)
 		)
 		(stroke
 			(width 0)
@@ -93,7 +119,17 @@
 	)
 	(bus
 		(pts
-			(xy 186.69 49.53) (xy 193.04 49.53)
+			(xy 187.96 58.42) (xy 194.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a354c0-ef9b-4132-93cc-3a2dcc0b0717")
+	)
+	(bus
+		(pts
+			(xy 187.96 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -101,8 +137,28 @@
 		)
 		(uuid "e9452223-ca08-4b5c-b666-5411342d14d3")
 	)
+	(bus
+		(pts
+			(xy 69.85 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4611ff1-eec3-47cd-8d2b-d0f009a22353")
+	)
+	(bus
+		(pts
+			(xy 69.85 58.42) (xy 69.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4888f7f-84d4-49aa-ae62-f95976d97437")
+	)
 	(sheet
-		(at 114.3 35.56)
+		(at 115.57 52.07)
 		(size 26.67 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -118,7 +174,7 @@
 		)
 		(uuid "0054750e-5233-4364-a758-64054997e15b")
 		(property "Sheetname" "Fan Out"
-			(at 114.3 34.5309 0)
+			(at 115.57 51.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -131,7 +187,7 @@
 			)
 		)
 		(property "Sheetfile" "fan_out.kicad_sch"
-			(at 114.3 56.4646 0)
+			(at 115.57 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -142,7 +198,7 @@
 			)
 		)
 		(pin "PAN{PAN}" bidirectional
-			(at 140.97 45.72 0)
+			(at 142.24 62.23 0)
 			(uuid "39572e82-e6ba-4ee5-9582-45075451285b")
 			(effects
 				(font
@@ -152,7 +208,7 @@
 			)
 		)
 		(pin "TNY{TNY}" bidirectional
-			(at 114.3 41.91 180)
+			(at 115.57 58.42 180)
 			(uuid "52a025be-e25b-4fbf-9c68-89c262d60f66")
 			(effects
 				(font
@@ -170,7 +226,7 @@
 		)
 	)
 	(sheet
-		(at 153.67 35.56)
+		(at 154.94 52.07)
 		(size 26.67 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -186,7 +242,7 @@
 		)
 		(uuid "3aea6610-f2a3-4b21-99b1-2866223bb12f")
 		(property "Sheetname" "Panels"
-			(at 153.67 34.5309 0)
+			(at 154.94 51.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -199,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "panels.kicad_sch"
-			(at 153.67 56.4646 0)
+			(at 154.94 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -210,7 +266,7 @@
 			)
 		)
 		(pin "PAN{PAN}" bidirectional
-			(at 153.67 45.72 180)
+			(at 154.94 62.23 180)
 			(uuid "8af440a6-5347-4e41-8559-d55b643dbc51")
 			(effects
 				(font
@@ -228,7 +284,7 @@
 		)
 	)
 	(sheet
-		(at 232.41 35.56)
+		(at 233.68 52.07)
 		(size 26.67 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -244,7 +300,7 @@
 		)
 		(uuid "3f6f12ad-0207-48b9-8360-f583cf48d0a1")
 		(property "Sheetname" "Mount Holes"
-			(at 232.41 34.5309 0)
+			(at 233.68 51.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -257,7 +313,7 @@
 			)
 		)
 		(property "Sheetfile" "holes.kicad_sch"
-			(at 232.41 56.4646 0)
+			(at 233.68 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -276,7 +332,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 35.56)
+		(at 76.2 52.07)
 		(size 26.67 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -292,7 +348,7 @@
 		)
 		(uuid "49d7122d-250d-4ac4-9432-46d5d4ec4ae4")
 		(property "Sheetname" "Teensy"
-			(at 74.93 34.5309 0)
+			(at 76.2 51.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -305,7 +361,7 @@
 			)
 		)
 		(property "Sheetfile" "teensy.kicad_sch"
-			(at 74.93 56.4646 0)
+			(at 76.2 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -316,7 +372,7 @@
 			)
 		)
 		(pin "I2C{I2C}" bidirectional
-			(at 74.93 41.91 180)
+			(at 76.2 58.42 180)
 			(uuid "c0181318-7de9-4d83-b804-e9b1bff3260d")
 			(effects
 				(font
@@ -326,7 +382,7 @@
 			)
 		)
 		(pin "TNY{TNY}" bidirectional
-			(at 101.6 41.91 0)
+			(at 102.87 58.42 0)
 			(uuid "7f8477b3-0275-41b9-8c85-a5b30fdd2b7b")
 			(effects
 				(font
@@ -336,7 +392,7 @@
 			)
 		)
 		(pin "AIN{AIN}" bidirectional
-			(at 74.93 48.26 180)
+			(at 76.2 64.77 180)
 			(uuid "6948bba2-253e-4ae0-b48b-a60506943579")
 			(effects
 				(font
@@ -346,7 +402,7 @@
 			)
 		)
 		(pin "PMON{PMON}" input
-			(at 101.6 48.26 0)
+			(at 102.87 64.77 0)
 			(uuid "775f1601-eac7-435f-b25e-86f5be0e62f2")
 			(effects
 				(font
@@ -364,7 +420,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 35.56)
+		(at 36.83 52.07)
 		(size 26.67 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -380,7 +436,7 @@
 		)
 		(uuid "d9742f93-cea2-4d1e-a4e2-1bef85a1b88a")
 		(property "Sheetname" "Analog IO"
-			(at 35.56 34.5309 0)
+			(at 36.83 51.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -393,7 +449,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 35.56 56.4646 0)
+			(at 36.83 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -404,7 +460,7 @@
 			)
 		)
 		(pin "I2C{I2C}" bidirectional
-			(at 62.23 41.91 0)
+			(at 63.5 58.42 0)
 			(uuid "93b7c890-8018-463d-aaf5-16600a5d8ea0")
 			(effects
 				(font
@@ -414,7 +470,7 @@
 			)
 		)
 		(pin "AIN{AIN}" bidirectional
-			(at 62.23 48.26 0)
+			(at 63.5 64.77 0)
 			(uuid "d3397ebc-91a3-4bd2-8a15-686b94af8373")
 			(effects
 				(font
@@ -432,7 +488,7 @@
 		)
 	)
 	(sheet
-		(at 193.04 35.56)
+		(at 194.31 52.07)
 		(size 26.67 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -448,7 +504,7 @@
 		)
 		(uuid "f8e525f6-92ff-481c-b9d6-983b91f2917d")
 		(property "Sheetname" "Power"
-			(at 193.04 34.5309 0)
+			(at 194.31 51.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -461,7 +517,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 193.04 56.4646 0)
+			(at 194.31 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -472,8 +528,18 @@
 			)
 		)
 		(pin "PMON{PMON}" output
-			(at 193.04 49.53 180)
+			(at 194.31 66.04 180)
 			(uuid "b710b044-f1eb-43aa-ab8e-59dfdd03430d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 194.31 58.42 180)
+			(uuid "e82f082d-87c5-4e4f-89db-a127647be609")
 			(effects
 				(font
 					(size 1.27 1.27)
