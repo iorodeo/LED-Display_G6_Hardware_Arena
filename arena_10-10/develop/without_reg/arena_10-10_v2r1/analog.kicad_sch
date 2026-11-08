@@ -7992,25 +7992,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "78ec101e-d6a7-4f84-b94d-7b0835392fa3")
+			(uuid "78ec101e-d6a7-4f84-b94d-7b0835392fa5")
 		)
 		(pin "8"
 			(uuid "2684ea7f-d58b-4c95-a636-73d5d6eee518")
 		)
 		(pin "6"
-			(uuid "8f135f70-19a6-40b9-818a-dd361c18989d")
+			(uuid "8f135f70-19a6-40b9-818a-dd361c18989e")
 		)
 		(pin "3"
-			(uuid "e2e85851-94e1-448c-bfbf-2cffde684597")
+			(uuid "e2e85851-94e1-448c-bfbf-2cffde684599")
 		)
 		(pin "7"
-			(uuid "83277a0e-b7d4-4824-b39e-c1de55d97db9")
+			(uuid "83277a0e-b7d4-4824-b39e-c1de55d97dba")
 		)
 		(pin "5"
-			(uuid "6e3a9fa3-9bb2-4d7e-b262-f26855e1e215")
+			(uuid "6e3a9fa3-9bb2-4d7e-b262-f26855e1e216")
 		)
 		(pin "1"
-			(uuid "8d686777-149c-4c66-b9d2-1086ae7157db")
+			(uuid "8d686777-149c-4c66-b9d2-1086ae7157dd")
 		)
 		(pin "4"
 			(uuid "a62c830f-614f-455b-b5de-03cb68b5a438")
@@ -8125,7 +8125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 78.74 27.9462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8169,7 +8169,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C307331"
 			(at 76.2 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10793,25 +10793,25 @@
 			(uuid "88e4f5f1-6077-4447-a2d5-f1887b14cfe2")
 		)
 		(pin "8"
-			(uuid "9c810d04-4ae8-41d9-a94c-4cb46c15d243")
+			(uuid "9c810d04-4ae8-41d9-a94c-4cb46c15d244")
 		)
 		(pin "6"
-			(uuid "8f135f70-19a6-40b9-818a-dd361c18989f")
+			(uuid "8f135f70-19a6-40b9-818a-dd361c1898a0")
 		)
 		(pin "3"
 			(uuid "575fc1a8-6997-455f-b5df-3f7ab24232cb")
 		)
 		(pin "7"
-			(uuid "83277a0e-b7d4-4824-b39e-c1de55d97dbb")
+			(uuid "83277a0e-b7d4-4824-b39e-c1de55d97dbc")
 		)
 		(pin "5"
-			(uuid "6e3a9fa3-9bb2-4d7e-b262-f26855e1e217")
+			(uuid "6e3a9fa3-9bb2-4d7e-b262-f26855e1e218")
 		)
 		(pin "1"
 			(uuid "3b0a2fc7-6f7d-4b6e-a7cc-ae445f663ab8")
 		)
 		(pin "4"
-			(uuid "160b0a69-a137-4b18-b76e-226eab56952f")
+			(uuid "160b0a69-a137-4b18-b76e-226eab569530")
 		)
 		(instances
 			(project "arena_10-10_v2r1"
@@ -11475,7 +11475,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C4109"
+		(property "LCSC Part #" "C25741"
 			(at 200.66 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -12662,13 +12662,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bdc306cf-c41b-4e89-8147-9b6cf547d100")
+			(uuid "bdc306cf-c41b-4e89-8147-9b6cf547d102")
 		)
 		(pin "5"
 			(uuid "950df554-6ec0-4a1a-a4f4-69d39a518a06")
 		)
 		(pin "1"
-			(uuid "39778409-166d-4d7c-9d7b-f162b94bc343")
+			(uuid "39778409-166d-4d7c-9d7b-f162b94bc345")
 		)
 		(pin "6"
 			(uuid "a720ba88-cc3e-4b31-a9dc-c7423fcd9806")
@@ -12677,13 +12677,13 @@
 			(uuid "e4d2c865-f1d8-48dc-960d-6dc5b0670d83")
 		)
 		(pin "8"
-			(uuid "f7e89f93-2c6f-4876-959f-bc43843cd1ed")
+			(uuid "f7e89f93-2c6f-4876-959f-bc43843cd1ef")
 		)
 		(pin "4"
-			(uuid "84b2dfbe-75fc-4e8a-903c-7f9d07d5b505")
+			(uuid "84b2dfbe-75fc-4e8a-903c-7f9d07d5b507")
 		)
 		(pin "3"
-			(uuid "7c340c12-3e36-43a6-b5f2-c3e98bc3ebc3")
+			(uuid "7c340c12-3e36-43a6-b5f2-c3e98bc3ebc5")
 		)
 		(instances
 			(project "arena_10-10_v2r1"
@@ -13545,13 +13545,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bdc306cf-c41b-4e89-8147-9b6cf547d102")
+			(uuid "bdc306cf-c41b-4e89-8147-9b6cf547d103")
 		)
 		(pin "5"
 			(uuid "724b569b-2afd-4b71-a9d2-078097d7f6e6")
 		)
 		(pin "1"
-			(uuid "39778409-166d-4d7c-9d7b-f162b94bc345")
+			(uuid "39778409-166d-4d7c-9d7b-f162b94bc346")
 		)
 		(pin "6"
 			(uuid "184eb973-9938-43fb-b5b9-e253da62b931")
@@ -13560,13 +13560,13 @@
 			(uuid "cd80b7f8-004e-4f7f-b915-71399ffbdf74")
 		)
 		(pin "8"
-			(uuid "f7e89f93-2c6f-4876-959f-bc43843cd1ef")
+			(uuid "f7e89f93-2c6f-4876-959f-bc43843cd1f0")
 		)
 		(pin "4"
-			(uuid "84b2dfbe-75fc-4e8a-903c-7f9d07d5b507")
+			(uuid "84b2dfbe-75fc-4e8a-903c-7f9d07d5b508")
 		)
 		(pin "3"
-			(uuid "7c340c12-3e36-43a6-b5f2-c3e98bc3ebc5")
+			(uuid "7c340c12-3e36-43a6-b5f2-c3e98bc3ebc6")
 		)
 		(instances
 			(project "arena_10-10_v2r1"
@@ -14313,7 +14313,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C4109"
+		(property "LCSC Part #" "C25741"
 			(at 200.66 127 90)
 			(hide yes)
 			(show_name no)
