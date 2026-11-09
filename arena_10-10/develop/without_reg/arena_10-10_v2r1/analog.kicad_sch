@@ -4395,7 +4395,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 228.6) (xy 212.09 231.14)
+			(xy 203.2 172.72) (xy 203.2 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8664,7 +8664,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 212.09 228.6 0)
+		(at 203.2 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8675,7 +8675,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cefc482-2092-449b-a7fb-ca3d21893944")
 		(property "Reference" "TP4"
-			(at 214.63 224.0279 0)
+			(at 205.74 168.1479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8686,7 +8686,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 214.63 226.5679 0)
+			(at 205.74 170.6879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8697,7 +8697,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 217.17 228.6 0)
+			(at 208.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,7 +8708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 228.6 0)
+			(at 208.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +8719,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 212.09 228.6 0)
+			(at 203.2 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13391,7 +13391,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 212.09 231.14 0)
+		(at 203.2 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13401,7 +13401,7 @@
 		(dnp no)
 		(uuid "e9d40c66-5b58-4ce1-8e06-2f22c09e645f")
 		(property "Reference" "#PWR0500"
-			(at 212.09 237.49 0)
+			(at 203.2 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13412,7 +13412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 234.95 0)
+			(at 203.2 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13422,7 +13422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 231.14 0)
+			(at 203.2 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13433,7 +13433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 231.14 0)
+			(at 203.2 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13444,7 +13444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 231.14 0)
+			(at 203.2 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
