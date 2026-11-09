@@ -5599,12 +5599,6 @@
 		(uuid "9ef4632d-bffe-4d67-95bd-387a10099eb4")
 	)
 	(junction
-		(at 438.15 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a30af296-82de-4909-8227-c87a0316c922")
-	)
-	(junction
 		(at 378.46 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5808,16 +5802,6 @@
 			(type default)
 		)
 		(uuid "00cd2efe-b6b9-4edc-8d1a-c65150184b22")
-	)
-	(wire
-		(pts
-			(xy 438.15 226.06) (xy 438.15 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b50912-0699-48e1-9242-cf3350f5546d")
 	)
 	(wire
 		(pts
@@ -6048,16 +6032,6 @@
 			(type default)
 		)
 		(uuid "1f6aff55-20d8-40f7-b80a-9183f2a8f7e5")
-	)
-	(wire
-		(pts
-			(xy 438.15 227.33) (xy 438.15 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f727d0b-bb30-429d-989e-9d68e3da7083")
 	)
 	(polyline
 		(pts
@@ -7651,16 +7625,6 @@
 	)
 	(wire
 		(pts
-			(xy 438.15 212.09) (xy 438.15 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b78a0f-c160-4648-80d7-5746e88bc726")
-	)
-	(wire
-		(pts
 			(xy 259.08 48.26) (xy 261.62 48.26)
 		)
 		(stroke
@@ -8302,7 +8266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "+15V"
 			(at 82.55 213.8679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8876,7 +8840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 422.91 224.0279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9290,85 +9254,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 438.15 226.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "1ec6d8e4-3c03-4cb3-a277-7e0f9c1b7e94")
-		(property "Reference" "TP17"
-			(at 440.69 221.4879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 440.69 224.0279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 443.23 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 438.15 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9bf02d31-4d9e-44a5-a4e9-b1e0c6edbcfb")
-		)
-		(instances
-			(project "arena_10-10_v2r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/f8e525f6-92ff-481c-b9d6-983b91f2917d"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 306.07 39.37 0)
 		(unit 1)
@@ -9717,7 +9602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 388.62 224.0279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10484,25 +10369,25 @@
 		(fields_autoplaced yes)
 		(uuid "446d29c8-69bb-437f-b0d5-b0f4c2fc9c3a")
 		(property "Reference" "TP11"
-			(at 422.91 216.6621 0)
+			(at 417.83 214.1219 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 422.91 214.1221 0)
+		(property "Value" "+5V"
+			(at 417.83 216.6619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
@@ -10545,85 +10430,6 @@
 			(project "arena_10-10_v2r1"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/f8e525f6-92ff-481c-b9d6-983b91f2917d"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_2")
-		(lib_id "power:+5V")
-		(at 438.15 209.55 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "458f9314-2553-4eae-ae00-7d7247d1ce13")
-		(property "Reference" "#PWR0504"
-			(at 438.15 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 438.15 205.994 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 438.15 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 438.15 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 438.15 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1bbfc8a-93e4-4076-b2d3-4629d9a80ac8")
-		)
-		(instances
-			(project "arena_10-10_v2r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/f8e525f6-92ff-481c-b9d6-983b91f2917d"
-					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -10981,7 +10787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 406.4 224.0279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11051,25 +10857,25 @@
 		(fields_autoplaced yes)
 		(uuid "5d4c1a57-c346-4c70-ac9c-9d5d4e66325a")
 		(property "Reference" "TP9"
-			(at 388.62 216.6621 0)
+			(at 383.54 214.1219 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 388.62 214.1221 0)
+		(property "Value" "+5V"
+			(at 383.54 216.6619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
@@ -11677,7 +11483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 370.84 224.0279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12925,7 +12731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 68.58 226.5679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12976,84 +12782,6 @@
 			(project "arena_10-10_v2r1"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/f8e525f6-92ff-481c-b9d6-983b91f2917d"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 438.15 227.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93d2c846-5de0-4344-aa61-682ec1fd3878")
-		(property "Reference" "#PWR0509"
-			(at 438.15 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 438.15 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 438.15 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 438.15 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 438.15 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5eaa3d7c-b9f0-4739-89cf-974c596900d4")
-		)
-		(instances
-			(project "arena_10-10_v2r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/f8e525f6-92ff-481c-b9d6-983b91f2917d"
-					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -13346,7 +13074,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "-15V"
 			(at 82.55 245.8719 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13476,86 +13204,6 @@
 			(project "arena_10-10_v2r1"
 				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/f8e525f6-92ff-481c-b9d6-983b91f2917d"
 					(reference "#PWR0250")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 438.15 212.09 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "b22c5704-5788-4e13-b29b-9387b9d9d5ee")
-		(property "Reference" "TP12"
-			(at 440.69 216.6621 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 440.69 214.1221 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 443.23 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 438.15 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "909cd816-ec98-492a-a2da-396731b2aafb")
-		)
-		(instances
-			(project "arena_10-10_v2r1"
-				(path "/056666d2-2c8f-491c-bcad-db3c517779a8/f8e525f6-92ff-481c-b9d6-983b91f2917d"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -13913,25 +13561,25 @@
 		(fields_autoplaced yes)
 		(uuid "b5da4281-5e00-4864-ac25-8651ef1a86eb")
 		(property "Reference" "TP10"
-			(at 406.4 216.6621 0)
+			(at 401.32 214.1219 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 406.4 214.1221 0)
+		(property "Value" "+5V"
+			(at 401.32 216.6619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
@@ -16258,25 +15906,25 @@
 		(fields_autoplaced yes)
 		(uuid "ffd32c90-6220-43b1-8044-7b96c69fd829")
 		(property "Reference" "TP8"
-			(at 370.84 216.6621 0)
+			(at 365.76 214.1219 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 370.84 214.1221 0)
+		(property "Value" "+5V"
+			(at 365.76 216.6619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
