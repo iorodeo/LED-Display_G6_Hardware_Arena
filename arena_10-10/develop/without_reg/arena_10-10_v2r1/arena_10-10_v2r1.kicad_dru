@@ -4,3 +4,15 @@
   (condition "A.Type == 'via' && !B.isPlated() || A.Type == 'via' && B.isPlated()")
   (constraint hole_to_hole (min 0.45mm))
 )
+
+(version 1)
+
+(rule "USB-C internal hole clearance"
+    (condition "A.memberOfFootprint('USB_C_Receptacle_MC-107DMS:USB_C_Receptacle_MC-107DMS*') && B.memberOfFootprint('USB_C_Receptacle_MC-107DMS:USB_C_Receptacle_MC-107DMS*')")
+    (constraint hole_clearance (min 0.18mm))
+)
+
+(rule "VQFN-24 internal pad clearance"
+    (condition "A.memberOfFootprint('TPS25982:QFN_59823ONRGER*') && B.memberOfFootprint('TPS25982:QFN_59823ONRGER*')")
+    (constraint clearance (min 0.16mm))
+)
