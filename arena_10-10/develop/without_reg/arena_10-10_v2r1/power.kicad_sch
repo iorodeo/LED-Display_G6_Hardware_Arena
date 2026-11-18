@@ -5257,6 +5257,18 @@
 		)
 		(uuid "6fbe71c5-317c-4cf8-b229-cb6118db6514")
 	)
+	(text "Confirm +/- swap as currently  \nconforms to XT30 standard"
+		(exclude_from_sim no)
+		(at 207.01 187.198 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "7732baeb-6df2-4df4-8c21-5a174c9e2047")
+	)
 	(text "over voltage protection 5.4V trip."
 		(exclude_from_sim no)
 		(at 262.89 19.05 0)
