@@ -4641,7 +4641,7 @@
 		)
 		(uuid "2e65354f-15e2-4416-a2d9-0bbdc299c04e")
 	)
-	(text "Changed pullups \nto 2.2k"
+	(text "Change pullups \nto 4.7k"
 		(exclude_from_sim no)
 		(at 300.482 134.62 0)
 		(effects
@@ -4698,7 +4698,7 @@
 		)
 		(uuid "942b8b03-5a2c-4f15-9493-7aad0222be82")
 	)
-	(text "Added Optional Pullups"
+	(text "Change pullups to 4.7k"
 		(exclude_from_sim no)
 		(at 171.45 203.2 0)
 		(effects

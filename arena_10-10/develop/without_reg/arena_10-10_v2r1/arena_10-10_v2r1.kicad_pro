@@ -64,9 +64,9 @@
           "min_island_area": 10.0,
           "min_thickness": 0.15,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.15,
-          "thermal_relief_spoke_width": 0.25
+          "thermal_relief_spoke_width": 0.6
         }
       },
       "diff_pair_dimensions": [
@@ -699,7 +699,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "bus_aliases": {
@@ -876,7 +876,7 @@
         "uuid": "056666d2-2c8f-491c-bcad-db3c517779a8"
       }
     ],
-    "used_designators": "#FLG4-6,L1-2,P11,TP1-17,JP1-2,R217-240,C142-161,D5-8,#PWR11,#PWR14,#PWR262,#PWR434,#PWR436,#PWR438-446,#PWR485-509,J31-34,Q2-3,U110-111,U114-115,F1-21",
+    "used_designators": "#FLG4-6,L1-2,P11,TP1-17,JP1-2,R217-240,C142-161,D5-8,#PWR11,#PWR14,#PWR262,#PWR434,#PWR436,#PWR438-446,#PWR485-510,J31-34,Q2-3,U110-111,U114-115,F1-21",
     "variants": []
   },
   "sheets": [

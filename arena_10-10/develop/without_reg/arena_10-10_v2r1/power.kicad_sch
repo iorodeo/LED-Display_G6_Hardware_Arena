@@ -9003,7 +9003,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 204.47 204.47 0)
+		(at 204.47 207.01 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9011,10 +9012,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "17bb262f-7b75-4a2a-a8c0-b40670e8662d")
 		(property "Reference" "J26"
-			(at 207.01 204.4699 0)
+			(at 207.01 207.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9025,7 +9025,7 @@
 			)
 		)
 		(property "Value" "XT30  Female"
-			(at 207.01 207.0099 0)
+			(at 207.01 204.4701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9036,7 +9036,7 @@
 			)
 		)
 		(property "Footprint" "AMASS_XT30U_Custom:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 204.47 204.47 0)
+			(at 204.47 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +9047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 204.47 0)
+			(at 204.47 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9058,7 +9058,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 204.47 204.47 0)
+			(at 204.47 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,7 +9069,7 @@
 			)
 		)
 		(property "LCSC Part #" "C108769"
-			(at 204.47 204.47 0)
+			(at 204.47 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
