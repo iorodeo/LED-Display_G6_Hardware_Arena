@@ -875,7 +875,7 @@
         "uuid": "056666d2-2c8f-491c-bcad-db3c517779a8"
       }
     ],
-    "used_designators": "#FLG4-6,L1-2,P11,TP1-17,JP1-2,R217-240,C142-161,D5-8,#PWR11,#PWR14,#PWR262,#PWR434,#PWR436,#PWR438-446,#PWR485-510,J31-34,J36,Q2-3,U110-111,U114-115,F1-21",
+    "used_designators": "#FLG4-6,L1-2,P11,TP1-17,JP1-2,R217-240,C142-167,D5-8,#PWR9-12,#PWR14-19,#PWR262,#PWR428-446,#PWR485-542,J31-34,J36-38,Q2-3,U110-111,U114-115,U118-119,U122,F1-21",
     "variants": []
   },
   "sheets": [
@@ -1130,6 +1130,22 @@
     [
       "28556eb3-29fc-492e-8ec1-5db2a88ed7ef",
       "MISO B1 Enable for P10"
+    ],
+    [
+      "bac03c01-3d35-42af-b1a9-aea18be48a09",
+      "DIO1"
+    ],
+    [
+      "5ecd0c79-c0f8-4f48-9153-1fd29acde138",
+      "DIO2"
+    ],
+    [
+      "a6582ead-f010-46b2-8ac8-4fee965a86dc",
+      "DIO3"
+    ],
+    [
+      "2f5c638d-4f5c-481a-abea-9a22a78061b5",
+      "DIO4"
     ]
   ],
   "text_variables": {},
