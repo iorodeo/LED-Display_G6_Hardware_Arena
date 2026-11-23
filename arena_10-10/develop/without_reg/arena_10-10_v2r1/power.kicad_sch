@@ -14414,7 +14414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS25982:QFN_59823ONRGER"
+		(property "Footprint" "TPS25982_custom:QFN_59823ONRGER"
 			(at 339.09 109.22 0)
 			(hide yes)
 			(show_name no)

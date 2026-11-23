@@ -11,4 +11,5 @@
 	(lib (name "TPS25982") (type "KiCad") (uri "${KIPRJMOD}/TPS25982.pretty") (options "") (descr ""))
 	(lib (name "USB_C_Receptacle_MC-107DMS") (type "KiCad") (uri "${KIPRJMOD}/USB_C_Receptacle_MC-107DMS.pretty") (options "") (descr ""))
 	(lib (name "SparkFun-Qwiic") (type "KiCad") (uri "${KIPRJMOD}/SparkFun-Qwiic.pretty") (options "") (descr ""))
+	(lib (name "TPS25982_custom") (type "KiCad") (uri "${KIPRJMOD}/TPS25982_custom.pretty") (options "") (descr ""))
 )
