@@ -4862,6 +4862,10 @@
 		(uuid "0f61f8fc-1393-4182-9949-b80b828f6e9e")
 	)
 	(no_connect
+		(at 105.41 53.34)
+		(uuid "21550539-4932-42dc-9503-8878a383bafd")
+	)
+	(no_connect
 		(at 53.34 170.18)
 		(uuid "6708df3b-9e9f-43d4-8f30-6b028bbce219")
 	)
@@ -4948,15 +4952,6 @@
 			(type default)
 		)
 		(uuid "3bb7065e-4cb0-432e-84bb-e893e80a6cbb")
-	)
-	(bus_entry
-		(at 271.78 198.12)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2acfd6-6e1a-4537-b379-15147937187d")
 	)
 	(bus_entry
 		(at 273.05 69.85)
@@ -7275,16 +7270,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 195.58) (xy 269.24 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd412c33-e59c-4559-a377-fb90cda947ba")
-	)
-	(wire
-		(pts
 			(xy 270.51 24.13) (xy 252.73 24.13)
 		)
 		(stroke
@@ -7382,16 +7367,6 @@
 			(type default)
 		)
 		(uuid "e34aeb2d-1e0b-434b-a6e0-b87174268c03")
-	)
-	(wire
-		(pts
-			(xy 105.41 53.34) (xy 124.46 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e59114-1253-47d2-ba01-040f87439999")
 	)
 	(wire
 		(pts
@@ -7793,16 +7768,6 @@
 		)
 		(uuid "2f0af55a-6126-41f8-9915-faabc68c38d1")
 	)
-	(label "PMON.INT_N"
-		(at 124.46 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f381cb2-cf5f-4d46-8177-8b7e1ec15210")
-	)
 	(label "TNY.CS_06"
 		(at 252.73 59.69 0)
 		(effects
@@ -7872,16 +7837,6 @@
 			(justify left bottom)
 		)
 		(uuid "48f5c3d0-f79b-4728-bf47-e36adab5e630")
-	)
-	(label "PMON.INT_N"
-		(at 251.46 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4eae7e86-55df-465e-82a5-82d8fab8b32b")
 	)
 	(label "ETH_T+"
 		(at 44.45 152.4 0)

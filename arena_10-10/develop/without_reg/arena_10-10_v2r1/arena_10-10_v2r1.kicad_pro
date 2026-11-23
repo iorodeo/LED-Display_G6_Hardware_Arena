@@ -795,8 +795,7 @@
       ],
       "PMON": [
         "PG",
-        "IMON",
-        "INT_N"
+        "IMON"
       ],
       "TNY": [
         "SCK_B0",
