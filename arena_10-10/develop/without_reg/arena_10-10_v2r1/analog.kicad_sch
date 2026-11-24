@@ -2824,7 +2824,7 @@
 	)
 	(text "Analog Input ±10V"
 		(exclude_from_sim no)
-		(at 225.552 114.3 0)
+		(at 233.172 114.3 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2837,7 +2837,7 @@
 	)
 	(text "Analog Input ±10V"
 		(exclude_from_sim no)
-		(at 226.568 156.21 0)
+		(at 232.918 156.21 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2855,7 +2855,7 @@
 		(uuid "0226e620-3b17-4686-abeb-f43ab1608402")
 	)
 	(junction
-		(at 218.44 123.19)
+		(at 226.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13adb21e-32f1-4dc4-90bc-c832d101cbe4")
@@ -2951,6 +2951,18 @@
 		(uuid "71eadb0e-3b5c-4983-a1a3-15c062a5f816")
 	)
 	(junction
+		(at 219.71 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78d3f89d-bf29-4c68-bf13-931e8c801f6b")
+	)
+	(junction
+		(at 219.71 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a744e94-26ed-484e-813f-a7c3c6c3d808")
+	)
+	(junction
 		(at 186.69 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3005,7 +3017,7 @@
 		(uuid "a12a4fa3-b457-4e57-b290-dc644aa791f9")
 	)
 	(junction
-		(at 219.71 165.1)
+		(at 226.06 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8e35c9a-b8fe-4768-8968-bed30da2ee0c")
@@ -3272,7 +3284,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 152.4) (xy 204.47 156.21)
+			(xy 219.71 152.4) (xy 219.71 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3532,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 204.47) (xy 144.78 207.01)
+			(xy 158.75 204.47) (xy 158.75 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3742,7 +3754,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 123.19) (xy 218.44 123.19)
+			(xy 204.47 123.19) (xy 226.06 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4102,16 +4114,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 156.21) (xy 214.63 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4aa841-37d5-435b-b622-0b81f4f4900f")
-	)
-	(wire
-		(pts
 			(xy 148.59 26.67) (xy 148.59 25.4)
 		)
 		(stroke
@@ -4222,7 +4224,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 165.1) (xy 219.71 165.1)
+			(xy 204.47 165.1) (xy 226.06 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4562,7 +4564,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 110.49) (xy 204.47 114.3)
+			(xy 219.71 113.03) (xy 219.71 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4842,6 +4844,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 156.21) (xy 220.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3657e0-65ac-4644-a174-b80fbf3b3609")
+	)
+	(wire
+		(pts
 			(xy 90.17 44.45) (xy 133.35 44.45)
 		)
 		(stroke
@@ -4922,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 114.3) (xy 213.36 114.3)
+			(xy 204.47 114.3) (xy 220.98 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5062,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 161.29) (xy 219.71 165.1)
+			(xy 226.06 161.29) (xy 226.06 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5192,7 +5204,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 119.38) (xy 218.44 124.46)
+			(xy 226.06 119.38) (xy 226.06 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5232,7 +5244,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 165.1) (xy 219.71 166.37)
+			(xy 226.06 165.1) (xy 226.06 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5481,7 +5493,7 @@
 		(uuid "ae164c18-1351-44e4-8074-67f3e3ffcc63")
 	)
 	(label "A1_10V"
-		(at 207.01 114.3 0)
+		(at 209.55 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5511,7 +5523,7 @@
 		(uuid "cee668da-f542-45a3-9735-456c69f57a37")
 	)
 	(label "A0_10V"
-		(at 207.01 156.21 0)
+		(at 209.55 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5837,7 +5849,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 204.47 152.4 0)
+		(at 219.71 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5848,7 +5860,7 @@
 		(fields_autoplaced yes)
 		(uuid "0930a31b-e816-4eff-8e30-bbc68e551bb6")
 		(property "Reference" "TP2"
-			(at 207.01 147.8279 0)
+			(at 222.25 147.8279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5859,7 +5871,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 207.01 150.3679 0)
+			(at 222.25 150.3679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5870,7 +5882,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 209.55 152.4 0)
+			(at 224.79 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5881,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 152.4 0)
+			(at 224.79 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5892,7 +5904,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 204.47 152.4 0)
+			(at 219.71 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8430,7 +8442,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 204.47 110.49 0)
+		(at 219.71 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8441,7 +8453,7 @@
 		(fields_autoplaced yes)
 		(uuid "566973eb-49b3-4653-bf51-309f9a5b9d4d")
 		(property "Reference" "TP1"
-			(at 207.01 105.9179 0)
+			(at 222.25 108.4579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8452,7 +8464,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 207.01 108.4579 0)
+			(at 222.25 110.9979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8463,7 +8475,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 209.55 110.49 0)
+			(at 224.79 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8474,7 +8486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 110.49 0)
+			(at 224.79 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8485,7 +8497,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 204.47 110.49 0)
+			(at 219.71 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8573,7 +8585,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906885"
+		(property "LCSC Part #" "C25900"
 			(at 90.17 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8800,7 +8812,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 219.71 166.37 0)
+		(at 226.06 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8810,7 +8822,7 @@
 		(dnp no)
 		(uuid "5a2467fd-659d-49ae-bbaa-d0b93f4da200")
 		(property "Reference" "#PWR0319"
-			(at 219.71 172.72 0)
+			(at 226.06 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8821,7 +8833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 170.18 0)
+			(at 226.06 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8831,7 +8843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 166.37 0)
+			(at 226.06 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8842,7 +8854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 166.37 0)
+			(at 226.06 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8853,7 +8865,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 166.37 0)
+			(at 226.06 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9873,7 +9885,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 219.71 156.21 0)
+		(at 226.06 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9884,7 +9896,7 @@
 		(fields_autoplaced yes)
 		(uuid "79b50a4e-6747-4963-8bbe-b85229236451")
 		(property "Reference" "J29"
-			(at 222.25 156.5031 0)
+			(at 228.6 156.5031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9895,7 +9907,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 223.52 157.7731 0)
+			(at 229.87 157.7731 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9907,7 +9919,7 @@
 			)
 		)
 		(property "Footprint" "BNC:BNC"
-			(at 219.71 156.21 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,7 +9930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 156.21 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9929,7 +9941,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 219.71 156.21 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9940,7 +9952,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2837587"
-			(at 219.71 156.21 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9951,7 +9963,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
-			(at 219.71 156.21 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +11468,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906885"
+		(property "LCSC Part #" "C25900"
 			(at 90.17 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12144,7 +12156,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 204.47 0)
+		(at 158.75 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12155,7 +12167,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1e3b6d5-4bc9-4a37-8853-9855c05b9c7d")
 		(property "Reference" "TP3"
-			(at 147.32 199.8979 0)
+			(at 161.29 199.8979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12166,7 +12178,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 147.32 202.4379 0)
+			(at 161.29 202.4379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12177,7 +12189,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 149.86 204.47 0)
+			(at 163.83 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12188,7 +12200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 204.47 0)
+			(at 163.83 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12199,7 +12211,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 144.78 204.47 0)
+			(at 158.75 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12316,7 +12328,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 218.44 114.3 0)
+		(at 226.06 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12327,7 +12339,7 @@
 		(fields_autoplaced yes)
 		(uuid "b46bdaa4-8478-4041-8858-3fc85fd7b7fe")
 		(property "Reference" "J28"
-			(at 220.98 114.5931 0)
+			(at 228.6 114.5931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12338,7 +12350,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 222.25 115.8631 0)
+			(at 229.87 115.8631 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12350,7 +12362,7 @@
 			)
 		)
 		(property "Footprint" "BNC:BNC"
-			(at 218.44 114.3 0)
+			(at 226.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12361,7 +12373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 114.3 0)
+			(at 226.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12372,7 +12384,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 218.44 114.3 0)
+			(at 226.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12383,7 +12395,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2837587"
-			(at 218.44 114.3 0)
+			(at 226.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12394,7 +12406,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
-			(at 218.44 114.3 0)
+			(at 226.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12747,7 +12759,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 218.44 124.46 0)
+		(at 226.06 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12757,7 +12769,7 @@
 		(dnp no)
 		(uuid "beeb3265-992a-4592-95f4-64a24b6780a9")
 		(property "Reference" "#PWR0306"
-			(at 218.44 130.81 0)
+			(at 226.06 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12768,7 +12780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 128.27 0)
+			(at 226.06 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12778,7 +12790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 124.46 0)
+			(at 226.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12789,7 +12801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 124.46 0)
+			(at 226.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12800,7 +12812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 124.46 0)
+			(at 226.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

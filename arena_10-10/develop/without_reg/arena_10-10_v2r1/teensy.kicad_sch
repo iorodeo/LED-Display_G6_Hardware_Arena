@@ -4551,7 +4551,7 @@
 	)
 	(text "Power Monitoring Signals"
 		(exclude_from_sim no)
-		(at 277.622 184.15 0)
+		(at 276.606 184.912 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -4711,7 +4711,7 @@
 		(uuid "2ffee4fa-add4-483d-ade4-0286a4a01aa7")
 	)
 	(bus_entry
-		(at 281.94 195.58)
+		(at 281.94 196.85)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4891,7 +4891,7 @@
 		(uuid "c5105e1b-c4f6-4386-a131-e2872a0a7e36")
 	)
 	(bus_entry
-		(at 281.94 193.04)
+		(at 281.94 194.31)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -6125,7 +6125,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 190.5) (xy 261.62 190.5)
+			(xy 279.4 191.77) (xy 261.62 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6435,7 +6435,7 @@
 	)
 	(bus
 		(pts
-			(xy 281.94 193.04) (xy 281.94 200.66)
+			(xy 281.94 194.31) (xy 281.94 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6745,7 +6745,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 193.04) (xy 261.62 193.04)
+			(xy 279.4 194.31) (xy 261.62 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7704,7 +7704,7 @@
 		(uuid "7b44086a-e17a-4322-9763-a29a4065b1c3")
 	)
 	(label "PMON.IMON"
-		(at 261.62 193.04 0)
+		(at 261.62 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8064,7 +8064,7 @@
 		(uuid "e6840729-7fd2-4a38-836f-858c4b58a993")
 	)
 	(label "PMON.PG"
-		(at 261.62 190.5 0)
+		(at 261.62 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8300,7 +8300,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 175.26 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8343,7 +8343,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C25900"
 			(at 175.26 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -11658,7 +11658,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 180.34 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11701,7 +11701,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C25900"
 			(at 180.34 176.53 90)
 			(hide yes)
 			(show_name no)
